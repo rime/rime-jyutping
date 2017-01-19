@@ -13817,7 +13817,7 @@ min_phrase_weight: 100
 𦧺	laai
 㖀	laak
 㖀	lak
-㖀	loet
+㖀	leot
 勒	laak
 勒	lak
 嘞	laak
@@ -14036,7 +14036,7 @@ min_phrase_weight: 100
 悷	lai
 捩	lai
 捩	lit
-捩	loei
+捩	leoi
 攦	lai
 攭	lai
 栵	lai
@@ -14476,7 +14476,6 @@ min_phrase_weight: 100
 吕	leoi
 呂	leoi
 唳	leoi
-唳	loei
 垒	leoi
 壘	leoi
 壘	leot
@@ -24624,7 +24623,7 @@ IP	ai pi
 畀過
 畀考起
 畀人唱衰	bei jan coeng seoi
-畀人foul出局	bei jan fau coet guk
+畀人foul出局	bei jan fau ceot guk
 畀人棍咗
 畀人蝦
 畀人恰
@@ -24635,7 +24634,7 @@ IP	ai pi
 畀人識穿	bei jan sik cyun
 畀人玩死	bei jan waan sei
 祕笈	bei kap
-畀佢睇	bei koei tai
+畀佢睇	bei keoi tai
 祕訣	bei kyut
 畀利是	bei lai si
 祕撈	bei lou
@@ -28180,7 +28179,7 @@ label	lei bou
 唔公平	m gung ping
 唔怪乎	m gwaai fu
 唔怪之得	m gwaai zi dak
-唔關佢事	m gwaan koei si
+唔關佢事	m gwaan keoi si
 唔關你事	m gwaan nei si
 唔關我事	m gwaan ngo si
 唔關事	m gwaan si
@@ -29023,7 +29022,7 @@ miss	mi si
 佢不嬲都唔食辣嘅	ngo bat nau dou m sik laat ge
 我不嬲喺	ngo bat nau hai
 我不嬲喺	ngo bat nau hoeng
-佢不嬲有信翻嚟	ngo bat nau jau soen faan lai
+佢不嬲有信翻嚟	ngo bat nau jau seon faan lai
 我必犯人
 餓親
 我check過嗮喇	ngo cek gwo sai laa
@@ -30364,7 +30363,7 @@ tissue	ti su
 話咁易	waa gam ji
 搲痕	waa han
 話口未完
-話佢知	waa koei zi
+話佢知	waa keoi zi
 搲爛	waa laan
 話落	waa lok
 話唔定	waa m ding
