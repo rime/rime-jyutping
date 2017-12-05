@@ -4,7 +4,7 @@
 schema:
   schema_id: hkcantonese
   name: 香港廣東話拼音
-  version: "0.1"
+  version: "0.2"
   author:
     - Matthew Wo <9029537@gmail.com>
   description: |
@@ -52,22 +52,33 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
+    - derive/aa/a/               # 煆 haa -> ha
+    - derive/eo/eu/              # 蹲 deon -> deun
+    - derive/oe/eu/              # 剁 doek -> deuk
+    - derive/eot/ut/             # 出 ceot -> chut
+    - derive/eon/un/             # 論 leon -> sun
+    - derive/eon/hun/            # 純 seon -> shun
+    - derive/yun/uen/            # 算 syun -> suen
+    - derive/u/ue/               # 冤 yun -> yuen
     - derive/^jy/y/              # 粵 jyut -> yut
     - derive/^j/y/               # 用 jung -> yung
     - derive/^z/j/               # 抓 zaa -> ja
     - derive/^c/ch/              # 叉 caa -> cha
-    - derive/aa$/a/              # 煆 haa -> ha
+    - derive/^gw/g/              # 廣 gwong -> gong
     - derive/eu$/iu/             # 掉 deu -> diu
-    - derive/eo/eu/              # 蹲 deon -> deun
-    - derive/oe/eu/              # 剁 doek -> deuk
     - derive/em$/im/             # 舐 lem -> lim
     - derive/ep$/ip/             # 夾 gep -> gip
     - derive/eoi$/ui/            # 最 zeoi -> jui
+    - derive/yu$/hu/             # 舒 syu -> shu
+    - derive/un$/oon/            # 盤 pun -> poon
     - derive/eong$/eung/         # 將 zeong -> zeung
+    - derive/(.)a$/$1h/          # 呀 aa -> ah
     - derive/^[nl](.)$/l$1/      # 呢 ne -> le
     - derive/^ng([a-z]*)/$1/     # 牙 ngaa -> aa
     - derive/^([a-z]*)yu$/$1u/   # 豬 zyu -> ju
     - derive/^([a-z]*)ou$/$1o/   # 好 hou -> ho
+    - derive/^(.)o$/$1oh/        # 科 fo -> foh
+    - derive/^[nl]([a-z]*)/l$1/  # 難 naan -> laan
     - abbrev/^([a-z]).+$/$1/     # 首字母簡拼
     - abbrev/^(ng).+$/$1/        # 聲母簡拼
     - abbrev/^(ch).+$/$1/        # 聲母簡拼
