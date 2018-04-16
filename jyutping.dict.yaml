@@ -1366,7 +1366,7 @@ min_phrase_weight: 100
 玻	bo
 碆	bo
 簸	bo
-般	bo
+般	bo	1%
 般	bun
 菠	bo
 譒	bo
@@ -4179,8 +4179,8 @@ min_phrase_weight: 100
 宠	cung
 寵	cung
 從	cung
-從	sung
-從	zung
+從	sung	1%
+從	zung	1%
 忡	cung
 怱	cung
 悤	cung
@@ -11557,7 +11557,7 @@ min_phrase_weight: 100
 噫	ji
 圯	ji
 夷	ji
-她	ji
+她	ji	0%
 她	taa
 姨	ji
 嫛	ji
@@ -13991,8 +13991,8 @@ min_phrase_weight: 100
 捞	lou
 撈	laau
 撈	lou
-嚟	lai	10000
-嚟	lei
+嚟	lai	1000
+嚟	lei	10000
 㒧	lai
 㕸	lai
 㕸	lap
@@ -20196,7 +20196,7 @@ min_phrase_weight: 100
 蓀	syun
 选	syun
 選	syun
-還	syun
+還	syun	0%
 還	waan
 酸	syun
 鏇	syun
@@ -20220,11 +20220,11 @@ min_phrase_weight: 100
 鳕	syut
 𠽌	syut
 他	taa
-他	to
+他	to	1%
 佗	taa
-佗	to
+佗	to	1%
 它	taa
-它	to
+它	to	1%
 怹	taa
 牠	taa
 牠	to
@@ -26933,6 +26933,7 @@ fax	fet si
 開公數	hoi gung sou
 開浪褲
 開O.T.	hoi ou ti
+開O.T.	hoi ot
 海皮
 開辟	hoi pik
 開心到飛起
@@ -26959,7 +26960,7 @@ fax	fet si
 好逼人
 好波
 好斜	hou ce
-好似	hou ci gam
+好似	hou ci
 好似係
 好彩數	hou coi sou
 薅草
@@ -26970,7 +26971,7 @@ fax	fet si
 好多潺
 好翻
 好瞓
-好friend
+好friend	hou friend
 好計仔	hou gai zai
 好勁
 皓潔	hou git
@@ -26978,7 +26979,8 @@ fax	fet si
 好焗
 好鬼死	hou gwai sei
 好鬼死難頂	hou gwai sei laan ding
-好high
+好high	hou high
+好high	hou hai
 好閒	hou haan
 好閒噶啫	hou haan gaa ze
 好行	hou haang
@@ -27000,6 +27002,7 @@ fax	fet si
 好味
 好冇心機
 好啱key	hou ngaam ki
+好啱key	hou ngaam key
 好眼
 好耐
 好耐好耐之前
@@ -27041,6 +27044,7 @@ fax	fet si
 勸交
 喧嘩	hyun waa
 X光	ik si gwong
+X光	x gwong
 廿八歲	jaa baat seoi
 跴單車	jaai daan ce
 曳到死	jai dou sei
@@ -31519,7 +31523,7 @@ short short哋	sot sot dei
 淒涼
 淥嚇
 淨喺
-淨系
+淨係
 淹尖
 游水
 渺嘴
