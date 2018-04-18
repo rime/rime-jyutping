@@ -5,10 +5,11 @@
 #
 #   derived from scim-table-zh Jyutping table.
 #   add phrases from open Cantonese dictionary: http://kaifangcidian.com/han/yue
+#   weight adjustment based on http://www.edbchinese.hk/lexlist_ch/ and manual checking
 
 ---
 name: jyutping
-version: "2013.12.07"
+version: "2018.04.18"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -35,7 +36,7 @@ min_phrase_weight: 100
 亚	aa
 亚	ngaa
 亞	aa
-亞	ngaa
+亞	ngaa	0%
 厂	aa
 厂	hon
 厊	aa
@@ -45,7 +46,7 @@ min_phrase_weight: 100
 哑	aa
 啊	aa
 啞	aa
-啞	ak
+啞	ak	0%
 嗄	aa
 嗄	saa
 埡	aa
@@ -63,20 +64,20 @@ min_phrase_weight: 100
 瘂	aa
 襾	aa
 襾	kaa
-那	aa
+那	aa	0%
 那	naa
-那	no
+那	no	0%
 錏	aa
 錒	aa
 铔	aa
 锕	aa
 阿	aa
-阿	aak
+阿	aak	0%
 阿	o
-雅	aa
+雅	aa	0%
 雅	ngaa
 鴉	aa
-鴉	ngaa
+鴉	ngaa	0%
 鸦	aa
 𠮩	aa
 𠮩	liu
@@ -99,7 +100,7 @@ min_phrase_weight: 100
 哎	aai
 哎	ai
 唉	aai
-唉	oi
+唉	oi	0%
 埃	aai
 埃	oi
 娭	aai
@@ -108,9 +109,9 @@ min_phrase_weight: 100
 欸	aai
 欸	ei
 欸	oi
-矮	aai
+矮	aai	0%
 矮	ai
-矮	ngai
+矮	ngai	0%
 誒	aai
 誒	e
 誒	ei
@@ -202,10 +203,10 @@ min_phrase_weight: 100
 罂	aang
 罌	aang
 㔩	aap
-押	aap
+押	aap	0%
 押	aat
 鴨	aap
-鴨	ngaap
+鴨	ngaap	0%
 鸭	aap
 鸭	ngaap
 压	aat
@@ -217,16 +218,16 @@ min_phrase_weight: 100
 堨	ngoi
 堨	oi
 壓	aat
-壓	ngaat
+壓	ngaat	0%
 恝	aat
 恝	gaat
 戛	aat
 戛	gaat
 戞	aat
 揠	aat
-桔	aat
+桔	aat	0%
 桔	gat
-歹	aat
+歹	aat	0%
 歹	daai
 猒	aat
 猒	jim
@@ -273,9 +274,9 @@ min_phrase_weight: 100
 凹	aau
 凹	lap
 凹	nap
-凹	waa
+凹	waa	0%
 坳	aau
-抓	aau
+抓	aau	0%
 抓	zaa
 抓	zaau
 抝	aau
@@ -331,7 +332,7 @@ min_phrase_weight: 100
 揞	ngam
 晻	am
 暗	am
-暗	ngam
+暗	ngam	0%
 盦	am
 腤	am
 腤	ngam
@@ -364,7 +365,7 @@ min_phrase_weight: 100
 嘤	jing
 嚶	ang
 嚶	jing
-更	ang
+更	ang	0%
 更	gaang
 更	gang
 罃	ang
@@ -373,8 +374,8 @@ min_phrase_weight: 100
 鶯	ang
 噏	ap
 噏	ngap
-洽	ap
-洽	haap
+洽	ap	0%
+洽	haap	0%
 洽	hap
 㕈	at
 㕈	zi
@@ -402,16 +403,16 @@ min_phrase_weight: 100
 扤	at
 扤	ngaat
 扤	ngat
-區	au	1%
-區	keoi	99%
+區	au	0.01
+區	keoi	0.99
 㑃	au
 㑃	paai
 㘬	au
 䋁	au
 䋁	gaang
 䫜	au
-勾	au
-勾	gau
+勾	au	0%
+勾	gau	0%
 勾	ngau
 区	au
 区	keoi
@@ -425,7 +426,7 @@ min_phrase_weight: 100
 欧	au
 欧	ngau
 歐	au
-歐	ngau
+歐	ngau	0%
 殴	au
 毆	au
 沤	au
@@ -464,7 +465,7 @@ min_phrase_weight: 100
 䰾	baa
 䶕	baa
 䶕	paa
-伯	baa
+伯	baa	0%
 伯	baak
 叭	baa
 吧	baa
@@ -485,7 +486,7 @@ min_phrase_weight: 100
 粑	baa
 罢	baa
 罷	baa
-罷	pei
+罷	pei	0%
 羓	baa
 芭	baa
 葩	baa
@@ -532,7 +533,7 @@ min_phrase_weight: 100
 擺	baai
 敗	baai
 湃	baai
-湃	paai
+湃	paai	0%
 稗	baai
 稗	bai
 粺	baai
@@ -562,9 +563,9 @@ min_phrase_weight: 100
 百	baak
 糪	baak
 糪	bok
-舶	baak
+舶	baak	0%
 舶	bok
-舶	paak
+舶	paak	0%
 菔	baak
 菔	fuk
 蔔	baak
@@ -616,7 +617,7 @@ min_phrase_weight: 100
 阪	baan
 阪	faan
 頒	baan
-頒	paan
+頒	paan	0%
 颁	baan
 魬	baan
 洴	baan
@@ -634,7 +635,7 @@ min_phrase_weight: 100
 繃	baang
 繃	bang
 繃	maang
-蹦	baang
+蹦	baang	0%
 𠾴	baang
 𨭌	baang
 𨭌	paang
@@ -672,14 +673,14 @@ min_phrase_weight: 100
 勹	baau
 包	baau
 孢	baau
-炮	baau
+炮	baau	0%
 炮	paau
 爆	baau
 砲	baau
 砲	paau
 胞	baau
 苞	baau
-豹	baau
+豹	baau	0%
 豹	paau
 飽	baau
 饱	baau
@@ -728,8 +729,8 @@ min_phrase_weight: 100
 贔	bai
 贔	bei
 赑	bai
-跛	bai
-跛	bei
+跛	bai	0%
+跛	bei	0%
 跛	bo
 鄨	bai
 鎞	bai
@@ -774,7 +775,7 @@ min_phrase_weight: 100
 䰉	ban
 䰉	bun
 䰉	pun
-份	ban
+份	ban	0%
 份	fan
 体	ban
 体	tai
@@ -808,7 +809,7 @@ min_phrase_weight: 100
 濒	pan
 濱	ban
 濵	ban
-瀕	ban
+瀕	ban	0%
 瀕	pan
 犇	ban
 玢	ban
@@ -891,7 +892,7 @@ min_phrase_weight: 100
 䳁	bat
 不	bat
 不	fau	0%
-佛	bat
+佛	bat	0%
 佛	fat
 冹	bat
 吥	bat
@@ -905,7 +906,7 @@ min_phrase_weight: 100
 彃	bat
 拔	bat
 毕	bat
-泌	bat
+泌	bat	0%
 泌	bei
 滗	bat
 滗	bei
@@ -1035,7 +1036,7 @@ min_phrase_weight: 100
 椑	bei
 椑	pei
 比	bei
-比	pei
+比	pei	0%
 毖	bei
 沘	bei
 犤	bei
@@ -1044,7 +1045,7 @@ min_phrase_weight: 100
 痺	bei
 碑	bei
 祕	bei
-祕	bit
+祕	bit	0%
 秕	bei
 秘	bei
 秘	bit
@@ -1072,7 +1073,7 @@ min_phrase_weight: 100
 襣	jyu
 詖	bei
 诐	bei
-費	bei
+費	bei	0%
 費	fai
 轡	bei
 辔	bei
@@ -1099,17 +1100,17 @@ min_phrase_weight: 100
 鼻	bei
 𡀠	bei
 𦱔	bei
-壁	bek
+壁	bek	0%
 壁	bik
 㝸	beng
 㝸	bin
 柄	beng
-柄	bing
+柄	bing	0%
 病	beng
 病	bing
 窉	beng
 餅	beng
-餅	bing
+餅	bing	0%
 㱸	bik
 㷶	bik
 㿰	bik
@@ -1137,7 +1138,7 @@ min_phrase_weight: 100
 襞	pik
 躄	bik
 躄	pik
-辟	bik
+辟	bik	0%
 辟	pik
 逼	bik
 㣐	bin
@@ -1164,7 +1165,7 @@ min_phrase_weight: 100
 忭	bin
 惼	bin
 扁	bin
-扁	pin
+扁	pin	0%
 抃	bin
 昪	bin
 汳	bin
@@ -1202,7 +1203,7 @@ min_phrase_weight: 100
 辯	bin
 边	bin
 辺	bin
-遍	bin
+遍	bin	0%
 遍	pin
 邊	bin
 釆	bin
@@ -1225,14 +1226,14 @@ min_phrase_weight: 100
 乒	bing
 乒	ping
 併	bing
-併	ping
+併	ping	0%
 偋	bing
 偋	ping
 兵	bing
 冫	bing
 冰	bing
 寎	bing
-屏	bing
+屏	bing	0%
 屏	ping
 屛	bing
 并	bing
@@ -1326,7 +1327,7 @@ min_phrase_weight: 100
 熛	biu
 猋	biu
 瘭	biu
-票	biu
+票	biu	0%
 票	piu
 穮	biu
 膘	biu
@@ -1357,7 +1358,7 @@ min_phrase_weight: 100
 䝛	fu
 啵	bo
 坡	bo
-坡	po
+坡	po	0%
 嶓	bo
 抪	bo
 抪	bou
@@ -1366,7 +1367,7 @@ min_phrase_weight: 100
 玻	bo
 碆	bo
 簸	bo
-般	bo
+般	bo	0%
 般	bun
 菠	bo
 譒	bo
@@ -1411,7 +1412,7 @@ min_phrase_weight: 100
 䰊	bok
 䶈	bok
 亳	bok
-剝	bok
+剝	bok	0%
 剝	mok
 剥	bok
 剥	mok
@@ -1442,7 +1443,7 @@ min_phrase_weight: 100
 箔	bok
 簙	bok
 縛	bok
-縛	fok
+縛	fok	0%
 缚	bok
 缚	fok
 胉	bok
@@ -1463,9 +1464,9 @@ min_phrase_weight: 100
 駮	bok
 驳	bok
 髆	bok
-魄	bok
+魄	bok	0%
 魄	paak
-魄	tok
+魄	tok	0%
 㙃	bong
 㨍	bong
 㮄	bong
@@ -1493,7 +1494,7 @@ min_phrase_weight: 100
 搒	pong
 梆	bong
 榜	bong
-榜	pong
+榜	pong	0%
 牓	bong
 甏	bong
 甏	paang
@@ -1544,7 +1545,7 @@ min_phrase_weight: 100
 儤	bou
 勽	bou
 哺	bou
-圃	bou
+圃	bou	0%
 圃	pou
 埔	bou
 埗	bou
@@ -1561,7 +1562,7 @@ min_phrase_weight: 100
 布	bou
 怖	bou
 报	bou
-抱	bou
+抱	bou	0%
 抱	pou
 捕	bou
 晡	bou
@@ -1662,7 +1663,7 @@ min_phrase_weight: 100
 卟	buk
 幞	buk
 曝	buk
-樸	buk
+樸	buk	0%
 樸	pok
 濮	buk
 瀑	buk
@@ -1702,7 +1703,7 @@ min_phrase_weight: 100
 叛	bun
 姅	bun
 拌	bun
-拌	pun
+拌	pun	0%
 搫	bun
 搬	bun
 本	bun
@@ -1716,7 +1717,7 @@ min_phrase_weight: 100
 絆	bun
 绊	bun
 胖	bun
-胖	pun
+胖	pun	0%
 苯	bun
 靽	bun
 㶻	bung
@@ -1729,7 +1730,7 @@ min_phrase_weight: 100
 塳	bung
 塳	pung
 捧	bung
-捧	fung
+捧	fung	0%
 捧	pung
 玤	bung
 琫	bung
@@ -1805,7 +1806,7 @@ min_phrase_weight: 100
 䱹	zaa
 侘	caa
 叉	caa
-喳	caa
+喳	caa	0%
 喳	zaa
 嗏	caa
 嗏	zaa
@@ -1814,13 +1815,13 @@ min_phrase_weight: 100
 姹	caa
 岔	caa
 差	caa
-差	caai	300%
-差	ci
+差	caai	3
+差	ci	0%
 扠	caa
 搽	caa
 杈	caa
 查	caa
-查	zaa
+查	zaa	0%
 査	caa
 楂	caa
 楂	zaa
@@ -1889,7 +1890,7 @@ min_phrase_weight: 100
 蠆	caai
 豺	caai
 踩	caai
-踩	coi
+踩	coi	0%
 踹	caai
 踹	cyun
 踹	jaai
@@ -1988,7 +1989,7 @@ min_phrase_weight: 100
 参	sam
 參	caam
 參	cam
-參	saam
+參	saam	0%
 參	sam
 叄	caam
 叄	sam
@@ -2098,7 +2099,7 @@ min_phrase_weight: 100
 铲	caan
 飡	caan
 餐	caan
-撐	caang	500%
+撐	caang	5
 䁎	caang
 䟫	caang
 䟫	jaang
@@ -2156,10 +2157,10 @@ min_phrase_weight: 100
 䕓	caat
 䶪	caat
 刷	caat
-刷	saat
+刷	saat	0%
 刹	caat
 刹	saat
-剎	caat
+剎	caat	0%
 剎	saat
 唰	caat
 嚓	caat
@@ -2281,14 +2282,14 @@ min_phrase_weight: 100
 鱭	cai
 鲚	cai
 齊	cai
-齊	zai
-齊	zi
+齊	zai	0%
+齊	zi	0%
 齐	cai
 𠯦	cai
 䍉	cak
 䍉	zak
 䞣	cak
-廁	cak
+廁	cak	0%
 廁	ci
 恻	cak
 测	cak
@@ -2347,7 +2348,7 @@ min_phrase_weight: 100
 沈	cam
 沈	sam
 沉	cam
-沉	zam
+沉	zam	0%
 浔	cam
 潯	cam
 灊	cam
@@ -2417,7 +2418,7 @@ min_phrase_weight: 100
 眕	zan
 瞋	can
 矧	can
-稱	can
+稱	can	0%
 稱	cing
 紖	can
 紖	jan
@@ -2435,13 +2436,13 @@ min_phrase_weight: 100
 親	can
 訠	can
 診	can
-診	zan
+診	zan	0%
 诊	can
 趁	can
 辴	can
 陈	can
 陳	can
-陳	zan
+陳	zan	0%
 齔	can
 龀	can
 㓌	cang
@@ -2528,7 +2529,7 @@ min_phrase_weight: 100
 漆	cat
 𠀁	cat
 𨳍	cat
-抽	cau	500%
+抽	cau	5
 㗜	cau
 㤽	cau
 㦞	cau
@@ -2552,8 +2553,8 @@ min_phrase_weight: 100
 䨂	cau
 䲡	cau
 丑	cau
-仇	cau
-仇	kau
+仇	cau	0%
+仇	kau	0%
 仇	sau
 俦	cau
 偢	cau
@@ -2563,7 +2564,7 @@ min_phrase_weight: 100
 儔	cau
 凑	cau
 嗅	cau
-嗅	hung
+嗅	hung	0%
 囚	cau
 崷	cau
 帱	cau
@@ -2622,7 +2623,7 @@ min_phrase_weight: 100
 輳	cau
 辏	cau
 遒	cau
-酋	cau
+酋	cau	0%
 酋	jau
 酘	cau
 酘	tau
@@ -2662,22 +2663,22 @@ min_phrase_weight: 100
 䔑	ce
 䵦	ce
 且	ce
-且	zeoi
+且	zeoi	0%
 且	zoeng	0%
 哆	ce
 哆	ci
 哆	do
 奢	ce
-奢	se
+奢	se	0%
 奲	ce
 奲	do
-尺	ce
+尺	ce	0%
 尺	cek
 扯	ce
 抯	ce
 撦	ce
 斜	ce
-斜	je
+斜	je	0%
 檨	ce
 檨	se
 灺	ce
@@ -2690,7 +2691,7 @@ min_phrase_weight: 100
 车	ce
 车	geoi
 邪	ce
-邪	je
+邪	je	0%
 𠳏	ce
 𠾏	ce
 㕽	cek
@@ -2710,11 +2711,11 @@ min_phrase_weight: 100
 𤷫	cik
 䙲	ceng
 䙲	cin
-晴	ceng
+晴	ceng	0%
 晴	cing
-清	ceng
+清	ceng	0%
 清	cing
-請	ceng
+請	ceng	0%
 請	cing
 青	ceng
 青	cing
@@ -2802,7 +2803,7 @@ min_phrase_weight: 100
 廚	cyu
 徐	ceoi
 捶	ceoi
-推	ceoi
+推	ceoi	0%
 推	teoi
 揣	ceoi
 揣	cyun
@@ -2849,7 +2850,7 @@ min_phrase_weight: 100
 蜍	ceoi
 蜍	cyu
 蜍	syu
-衰	ceoi
+衰	ceoi	0%
 衰	seoi
 覰	ceoi
 覷	ceoi
@@ -2862,9 +2863,9 @@ min_phrase_weight: 100
 趍	ceoi
 趡	ceoi
 趣	ceoi
-趣	cuk
+趣	cuk	0%
 趨	ceoi
-趨	cuk
+趨	cuk	0%
 錘	ceoi
 錘	seoi
 鎚	ceoi
@@ -2873,7 +2874,7 @@ min_phrase_weight: 100
 陏	ceoi
 陏	do
 除	ceoi
-除	cyu
+除	cyu	0%
 隋	ceoi
 随	ceoi
 隨	ceoi
@@ -2921,7 +2922,7 @@ min_phrase_weight: 100
 踳	ceon
 踳	cyun
 輴	ceon
-馴	ceon
+馴	ceon	0%
 馴	seon
 驯	ceon
 驯	seon
@@ -3054,8 +3055,8 @@ min_phrase_weight: 100
 偨	zi
 儩	ci
 刺	ci
-刺	cik
-刺	sik
+刺	cik	0%
+刺	sik	0%
 匙	ci
 匙	si
 厕	ci
@@ -3118,7 +3119,7 @@ min_phrase_weight: 100
 歯	ci
 汜	ci
 池	ci
-治	ci
+治	ci	0%
 治	zi
 泚	ci
 泜	ci
@@ -3164,7 +3165,7 @@ min_phrase_weight: 100
 茌	ci
 茨	ci
 茬	ci
-茲	ci
+茲	ci	0%
 茲	zi
 荎	ci
 莿	ci
@@ -3243,7 +3244,7 @@ min_phrase_weight: 100
 摵	saak
 敕	cik
 斥	cik
-析	cik
+析	cik	0%
 析	sik
 栻	cik
 栻	sik
@@ -3407,7 +3408,7 @@ min_phrase_weight: 100
 瓩	cin
 瓩	ngaa
 纏	cin
-纏	zin
+纏	zin	0%
 缠	cin
 芊	cin
 蒇	cin
@@ -3416,12 +3417,12 @@ min_phrase_weight: 100
 蕆	zin
 践	cin
 踐	cin
-踐	zin
+踐	zin	0%
 躔	cin
 迁	cin
 遷	cin
 錢	cin
-錢	zin
+錢	zin	0%
 钱	cin
 闡	cin
 闡	zin
@@ -3459,7 +3460,7 @@ min_phrase_weight: 100
 情	cing
 惩	cing
 懲	cing
-成	cing
+成	cing	0%
 成	seng
 成	sing
 拯	cing
@@ -3472,7 +3473,7 @@ min_phrase_weight: 100
 澄	cing
 澄	dang
 珵	cing
-瞪	cing
+瞪	cing	0%
 瞪	dang
 秤	cing
 称	cing
@@ -3540,7 +3541,7 @@ min_phrase_weight: 100
 彻	cit
 徹	cit
 懘	cit
-掣	cit
+掣	cit	0%
 掣	zai	1000
 撤	cit
 澈	cit
@@ -3680,7 +3681,7 @@ min_phrase_weight: 100
 鋤	co
 錯	co
 錯	cok
-錯	cou
+錯	cou	0%
 锄	co
 锉	co
 错	co
@@ -3733,7 +3734,7 @@ min_phrase_weight: 100
 勺	soek
 勺	zoek
 卓	coek
-卓	zoek
+卓	zoek	0%
 噱	coek
 噱	kek
 噱	koek
@@ -3762,10 +3763,10 @@ min_phrase_weight: 100
 踔	coek
 辵	coek
 逴	coek
-鵲	coek
+鵲	coek	0%
 鵲	zoek
 鹊	coek
-暢	coeng	500%
+暢	coeng	5
 㙊	coeng
 㟄	coeng
 㡧	coeng
@@ -3796,14 +3797,14 @@ min_phrase_weight: 100
 伥	coeng
 伥	zaang
 倡	coeng
-償	coeng
+償	coeng	0%
 償	soeng
 呛	coeng
 唱	coeng
 嗆	coeng
 囪	coeng
 囪	cung
-囱	coeng
+囱	coeng	0%
 囱	cung
 场	coeng
 場	coeng
@@ -3823,7 +3824,7 @@ min_phrase_weight: 100
 戧	coeng
 抢	coeng
 搶	coeng
-搶	cong
+搶	cong	0%
 斨	coeng
 昌	coeng
 枪	coeng
@@ -3941,8 +3942,8 @@ min_phrase_weight: 100
 刱	cong
 創	cong
 厰	cong
-幢	cong
-幢	tong
+幢	cong	0%
+幢	tong	0%
 幢	zong
 床	cong
 廠	cong
@@ -3952,7 +3953,7 @@ min_phrase_weight: 100
 愴	cong
 戃	cong
 戃	tong
-撞	cong
+撞	cong	0%
 撞	zong
 敞	cong
 昶	cong
@@ -4008,7 +4009,7 @@ min_phrase_weight: 100
 慥	zou
 懆	cou
 措	cou
-措	zaak
+措	zaak	0%
 操	cou
 曹	cou
 槽	cou
@@ -4102,7 +4103,7 @@ min_phrase_weight: 100
 触	cuk
 触	zuk
 觫	cuk
-觸	cuk
+觸	cuk	0%
 觸	zuk
 諔	cuk
 諔	suk
@@ -4180,7 +4181,7 @@ min_phrase_weight: 100
 寵	cung
 從	cung
 從	sung
-從	zung
+從	zung	0%
 忡	cung
 怱	cung
 悤	cung
@@ -4191,7 +4192,7 @@ min_phrase_weight: 100
 憃	cung
 憃	zung
 憧	cung
-憧	tung
+憧	tung	0%
 揰	cung
 摐	cung
 松	cung
@@ -4232,7 +4233,7 @@ min_phrase_weight: 100
 蟲	cung
 衝	cung
 衷	cung
-衷	zung
+衷	zung	0%
 賨	cung
 重	cung
 重	zung
@@ -4272,7 +4273,7 @@ min_phrase_weight: 100
 宁	cyu
 幮	cyu
 曙	cyu
-曙	syu
+曙	syu	0%
 杵	cyu
 杼	cyu
 柱	cyu
@@ -4286,7 +4287,7 @@ min_phrase_weight: 100
 紵	cyu
 纻	cyu
 署	cyu
-署	syu
+署	syu	0%
 羜	cyu
 芧	cyu
 芧	seoi
@@ -4294,7 +4295,7 @@ min_phrase_weight: 100
 苎	cyu
 苧	cyu
 處	cyu
-處	syu
+處	syu	0%
 褚	cyu
 貯	cyu
 贮	cyu
@@ -4413,7 +4414,7 @@ min_phrase_weight: 100
 䯿	zeot
 䱣	cyut
 䱣	zeot
-卒	cyut
+卒	cyut	0%
 卒	zeot
 咄	cyut
 咄	deot
@@ -4534,7 +4535,7 @@ min_phrase_weight: 100
 澹	taam
 甔	daam
 眈	daam
-石	daam
+石	daam	4%
 石	sek
 禫	daam
 禫	taam
@@ -4577,7 +4578,7 @@ min_phrase_weight: 100
 匰	daan
 单	daan
 單	daan
-單	sin
+單	sin	4%
 弹	daan
 弹	taan
 彈	daan
@@ -4674,7 +4675,7 @@ min_phrase_weight: 100
 躂	taat
 达	daat
 達	daat
-達	taat
+達	taat	0%
 鐽	daat
 靼	daat
 𢴈	daat
@@ -4716,12 +4717,12 @@ min_phrase_weight: 100
 帝	dai
 底	dai
 弟	dai
-弟	tai
+弟	tai	0%
 弤	dai
 彽	dai
 悌	dai
 悌	tai
-提	dai
+提	dai	0%
 提	tai
 揥	dai
 揥	tai
@@ -4743,7 +4744,7 @@ min_phrase_weight: 100
 笫	zi
 第	dai
 締	dai
-締	tai
+締	tai	0%
 缔	dai
 羝	dai
 胝	dai
@@ -4763,7 +4764,7 @@ min_phrase_weight: 100
 軧	dai
 递	dai
 逮	dai
-逮	doi
+逮	doi	0%
 遞	dai
 遰	dai
 遰	sai
@@ -4773,7 +4774,7 @@ min_phrase_weight: 100
 隷	dai
 隷	lai
 隸	dai
-隸	lai
+隸	lai	0%
 鞮	dai
 鷤	dai
 鷤	taan
@@ -4902,7 +4903,7 @@ min_phrase_weight: 100
 䩢	dat
 䩢	dik
 凸	dat
-凸	gu
+凸	gu	0%
 怢	dat
 揬	dat
 突	dat
@@ -4931,13 +4932,13 @@ min_phrase_weight: 100
 窦	dau
 竇	dau
 篼	dau
-糾	dau
+糾	dau	0%
 糾	gau
 脰	dau
 荳	dau
 蔸	dau
 蚪	dau
-讀	dau
+讀	dau	0%
 讀	duk
 豆	dau
 赳	dau
@@ -4987,7 +4988,7 @@ min_phrase_weight: 100
 訂	deng
 訂	ding
 釘	deng
-釘	ding
+釘	ding	0%
 钉	deng
 钉	ding
 頂	deng
@@ -5040,7 +5041,7 @@ min_phrase_weight: 100
 兑	deoi
 嚉	deoi
 堆	deoi
-堆	zeoi
+堆	zeoi	0%
 对	deoi
 對	deoi
 怼	deoi
@@ -5048,7 +5049,7 @@ min_phrase_weight: 100
 憝	deoi
 懟	deoi
 懟	zeoi
-敦	deoi
+敦	deoi	0%
 敦	deon
 碓	deoi
 祋	deoi
@@ -5098,16 +5099,16 @@ min_phrase_weight: 100
 钝	deon
 镦	deon
 頓	deon
-頓	duk
+頓	duk	0%
 顿	deon
 顿	duk
 𥫱	deon
 㘞	deot
 柮	deot
-掉	deu
+掉	deu	4%
 掉	diu
-掉	zaau
-調	deu
+掉	zaau	0%
+調	deu	4%
 調	diu
 調	tiu
 啲	di	10000
@@ -5155,7 +5156,7 @@ min_phrase_weight: 100
 蹢	dik
 蹢	zaak
 迪	dik
-適	dik
+適	dik	0%
 適	sik
 鍉	dik
 鍉	si
@@ -5173,7 +5174,7 @@ min_phrase_weight: 100
 㼭	dim
 䍄	dim
 坫	dim
-墊	dim
+墊	dim	0%
 墊	din
 墊	zin
 店	dim
@@ -5244,7 +5245,7 @@ min_phrase_weight: 100
 䵺	ding
 䵺	ting
 丁	ding
-丁	zaang
+丁	zaang	0%
 丁	zang	0%
 仃	ding
 叮	ding
@@ -5446,14 +5447,14 @@ min_phrase_weight: 100
 埵	do
 堕	do
 墮	do
-墮	fai
+墮	fai	0%
 墯	do
 墯	fai
 多	do
 嶞	do
 惰	do
 朵	do
-朵	doe
+朵	doe	0%
 跺	do
 躱	do
 躲	do
@@ -5472,7 +5473,7 @@ min_phrase_weight: 100
 䐁	duk
 䐁	zaa
 啄	doek
-啄	doeng
+啄	doeng	0%
 啅	doek
 噣	doek
 噣	zau
@@ -5492,9 +5493,9 @@ min_phrase_weight: 100
 岱	doi
 帒	doi
 待	doi
-怠	doi
+怠	doi	0%
 怠	toi
-殆	doi
+殆	doi	0%
 殆	toi
 玳	doi
 瑇	doi
@@ -5549,7 +5550,7 @@ min_phrase_weight: 100
 瓽	dong
 當	dong
 盪	dong
-盪	tong
+盪	tong	0%
 砀	dong
 碭	dong
 筜	dong
@@ -5627,7 +5628,7 @@ min_phrase_weight: 100
 睹	dou
 禂	dou
 禂	tou
-禱	dou
+禱	dou	0%
 禱	tou
 秺	dou
 稌	dou
@@ -5645,7 +5646,7 @@ min_phrase_weight: 100
 賭	dou
 赌	dou
 蹈	dou
-蹈	tou
+蹈	tou	0%
 道	dou
 都	dou
 鍍	dou
@@ -5822,7 +5823,7 @@ min_phrase_weight: 100
 擭	wok
 杹	faa
 花	faa
-華	faa
+華	faa	0%
 華	waa
 蘤	faa
 㕒	faai
@@ -5856,7 +5857,7 @@ min_phrase_weight: 100
 𫂈	faai
 拂	faak
 拂	fat
-沸	faak
+沸	faak	0%
 沸	fai
 㕨	faan
 㖧	faan
@@ -5909,7 +5910,7 @@ min_phrase_weight: 100
 畈	faan
 畨	faan
 番	faan
-番	pun
+番	pun	0%
 矾	faan
 礬	faan
 笲	faan
@@ -6054,7 +6055,7 @@ min_phrase_weight: 100
 肺	fai
 芾	fai
 芾	fat
-虧	fai
+虧	fai	0%
 虧	kwai
 袆	fai
 袚	fai
@@ -6107,7 +6108,7 @@ min_phrase_weight: 100
 勛	fan
 勳	fan
 吩	fan
-噴	fan
+噴	fan	0%
 噴	pan
 坆	fan
 坟	fan
@@ -6258,11 +6259,11 @@ min_phrase_weight: 100
 黻	fat
 𦡆	fat
 剖	fau
-剖	pau
+剖	pau	0%
 否	fau
-否	pei
+否	pei	0%
 峊	fau
-復	fau
+復	fau	0%
 復	fuk
 浮	fau
 涪	fau
@@ -6286,7 +6287,7 @@ min_phrase_weight: 100
 鴀	fau
 𧌓	fau
 啡	fe
-啡	fei
+啡	fei	0%
 㥱	fei
 㫵	fei
 㹃	fei
@@ -6357,7 +6358,7 @@ min_phrase_weight: 100
 堁	fo
 夥	fo
 棵	fo
-棵	po
+棵	po	0%
 火	fo
 科	fo
 稞	fo
@@ -6437,7 +6438,7 @@ min_phrase_weight: 100
 巟	fong
 幌	fong
 彷	fong
-彷	pong
+彷	pong	0%
 怳	fong
 恍	fong
 慌	fong
@@ -6482,7 +6483,7 @@ min_phrase_weight: 100
 魴	fong
 鲂	fong
 戲	fu	0%
-戲	hei	100%
+戲	hei	1
 㐻	fu
 㐻	mou
 㐻	noi
@@ -6548,7 +6549,7 @@ min_phrase_weight: 100
 䴸	fu
 䵾	fu
 乎	fu
-乎	wu
+乎	wu	0%
 仆	fu
 仆	puk
 付	fu
@@ -6605,7 +6606,7 @@ min_phrase_weight: 100
 父	fu
 琥	fu
 甫	fu
-甫	pou
+甫	pou	0%
 痡	fu
 痡	pou
 盙	fu
@@ -6733,7 +6734,7 @@ min_phrase_weight: 100
 诙	fui
 诲	fui
 豗	fui
-賄	fui
+賄	fui	0%
 賄	kui
 贿	fui
 闠	fui
@@ -6802,7 +6803,7 @@ min_phrase_weight: 100
 䢵	waat
 䥗	fun
 䲌	fun
-喚	fun
+喚	fun	0%
 喚	wun
 嚾	fun
 宽	fun
@@ -6876,7 +6877,7 @@ min_phrase_weight: 100
 縫	fung
 缝	fung
 葑	fung
-蓬	fung
+蓬	fung	0%
 蓬	pung
 蘴	fung
 蜂	fung
@@ -6926,7 +6927,7 @@ min_phrase_weight: 100
 價	gaa
 加	gaa
 咖	gaa
-咖	kaa
+咖	kaa	0%
 嘉	gaa
 嘎	gaa
 嘏	gaa
@@ -7007,10 +7008,10 @@ min_phrase_weight: 100
 廨	gaai
 廨	haai
 悈	gaai
-懈	gaai
+懈	gaai	0%
 懈	haai
 戒	gaai
-楷	gaai
+楷	gaai	0%
 楷	kaai
 檞	gaai
 檞	haai
@@ -7028,7 +7029,7 @@ min_phrase_weight: 100
 蝔	gaai
 街	gaai
 解	gaai
-解	haai
+解	haai	0%
 觧	gaai
 誡	gaai
 诫	gaai
@@ -7064,7 +7065,7 @@ min_phrase_weight: 100
 翮	gaak
 翮	hat
 胳	gaak
-胳	lok
+胳	lok	0%
 膈	gaak
 茖	gaak
 茖	gok
@@ -7074,7 +7075,7 @@ min_phrase_weight: 100
 隔	gaak
 革	gaak
 革	gaap
-革	gik
+革	gik	0%
 骼	gaak
 鬲	gaak
 鬲	lik
@@ -7109,7 +7110,7 @@ min_phrase_weight: 100
 尷	gaam
 椷	gaam
 橄	gaam
-橄	gam
+橄	gam	0%
 淦	gaam
 淦	gam
 減	gaam
@@ -7121,7 +7122,7 @@ min_phrase_weight: 100
 鉴	gaam
 鑑	gaam
 鑒	gaam
-揀	gaan	300%
+揀	gaan	3
 㢙	gaan
 㢙	kaan
 㢙	saap
@@ -7167,7 +7168,7 @@ min_phrase_weight: 100
 諫	gaan
 谏	gaan
 鐧	gaan
-閒	gaan
+閒	gaan	0%
 閒	haan
 間	gaan
 间	gaan
@@ -7185,7 +7186,7 @@ min_phrase_weight: 100
 浭	gang
 畊	gaang
 耕	gaang
-耕	gang
+耕	gang	0%
 逕	gaang
 逕	ging
 𨁈	gaang
@@ -7237,7 +7238,7 @@ min_phrase_weight: 100
 頰	gaap
 頰	haap
 颊	gaap
-鴿	gaap
+鴿	gaap	0%
 鴿	gap
 鵊	gaap
 㔕	gaat
@@ -7255,9 +7256,9 @@ min_phrase_weight: 100
 钆	gaat
 鞂	gaat
 攪	gaau	1000
-覺	gaau	5%
-覺	gok	95%
-搞	gaau	500%
+覺	gaau	0.05
+覺	gok	0.95
+搞	gaau	5
 㗕	gaau
 㗕	ngaau
 㚣	gaau
@@ -7382,7 +7383,7 @@ min_phrase_weight: 100
 蟿	gai
 蟿	kai
 計	gai
-計	gei
+計	gei	0%
 计	gai
 雞	gai
 髻	gai
@@ -7569,9 +7570,9 @@ min_phrase_weight: 100
 䇲	gok
 䛟	gap
 䧻	gap
-及	gap
+及	gap	0%
 及	kap
-合	gap
+合	gap	0%
 合	hap
 岌	gap
 岌	kap
@@ -7580,9 +7581,9 @@ min_phrase_weight: 100
 忣	gap
 急	gap
 芨	gap
-蓋	gap
+蓋	gap	0%
 蓋	goi
-蓋	hap
+蓋	hap	0%
 蓋	koi
 郃	gap
 郃	hap
@@ -7606,10 +7607,10 @@ min_phrase_weight: 100
 䰴	gat
 佶	gat
 佶	git
-吃	gat
-吃	hat
+吃	gat	0%
+吃	hat	0%
 吃	hek
-吃	jaak
+吃	jaak	4%
 吉	gat
 咭	gat
 咭	kaat
@@ -7624,7 +7625,7 @@ min_phrase_weight: 100
 虼	gat
 蛣	gat
 蛣	kit
-訖	gat
+訖	gat	0%
 訖	ngat
 詰	gat
 詰	kit
@@ -7671,7 +7672,7 @@ min_phrase_weight: 100
 勼	gau
 勼	kau
 厩	gau
-句	gau
+句	gau	0%
 句	geoi
 咎	gau
 咎	gou
@@ -7710,7 +7711,7 @@ min_phrase_weight: 100
 泃	gau
 泃	geoi
 泃	keoi
-溝	gau
+溝	gau	0%
 溝	kau
 灸	gau
 狗	gau
@@ -7740,7 +7741,7 @@ min_phrase_weight: 100
 購	kau
 购	gau
 遘	gau
-鈎	gau
+鈎	gau	0%
 鈎	ngau
 钩	gau
 钩	ngau
@@ -7751,18 +7752,18 @@ min_phrase_weight: 100
 韮	gau
 鬮	gau
 鳩	gau
-鳩	kau
+鳩	kau	0%
 鸠	gau
 鸠	kau
-龜	gau
+龜	gau	0%
 龜	gwai
-龜	gwan
+龜	gwan	0%
 龟	gau
 龟	gwai
 龟	gwan
-龜	gau
+龜	gau	0%
 龜	gwai
-龜	gwan
+龜	gwan	0%
 𠴰	gau
 𨳊	gau
 嘅	ge	10000
@@ -7818,7 +7819,7 @@ min_phrase_weight: 100
 伎	gei
 倛	gei
 倛	hei
-其	gei
+其	gei	0%
 其	kei
 几	gei
 刉	gei
@@ -7851,7 +7852,7 @@ min_phrase_weight: 100
 既	gei
 旣	gei
 朞	gei
-期	gei
+期	gei	0%
 期	kei
 机	gei
 杞	gei
@@ -7860,7 +7861,7 @@ min_phrase_weight: 100
 犄	gei
 玑	gei
 璣	gei
-畸	gei
+畸	gei	0%
 畸	kei
 畿	gei
 矶	gei
@@ -7902,9 +7903,9 @@ min_phrase_weight: 100
 飢	gei
 饑	gei
 饥	gei
-騎	gei
+騎	gei	0%
 騎	ke
-騎	kei
+騎	kei	4%
 骩	gei
 鬾	gei
 鵋	gei
@@ -7920,7 +7921,7 @@ min_phrase_weight: 100
 镜	geng
 頸	geng
 颈	geng
-驚	geng
+驚	geng	0%
 驚	ging
 麠	geng
 麠	ging
@@ -7946,7 +7947,7 @@ min_phrase_weight: 100
 䶙	geoi
 䶚	geoi
 举	geoi
-俱	geoi
+俱	geoi	0%
 俱	keoi
 倨	geoi
 倶	geoi
@@ -8006,7 +8007,7 @@ min_phrase_weight: 100
 讵	geoi
 豦	geoi
 豦	keoi
-距	geoi
+距	geoi	0%
 距	keoi
 踞	geoi
 踽	geoi
@@ -8141,7 +8142,7 @@ min_phrase_weight: 100
 腱	gin
 菺	gin
 見	gin
-見	jin
+見	jin	0%
 见	gin
 謇	gin
 謇	hin
@@ -8189,11 +8190,11 @@ min_phrase_weight: 100
 徑	ging
 惊	ging
 憬	ging
-憬	gwing
+憬	gwing	0%
 憼	ging
 敬	ging
 景	ging
-景	jing
+景	jing	0%
 桱	ging
 殑	ging
 殑	king
@@ -8238,8 +8239,8 @@ min_phrase_weight: 100
 抾	keoi
 澀	gip
 澀	saap
-澀	sap
-狹	gip
+澀	sap	0%
+狹	gip	0%
 狹	haap
 硤	gip
 硤	haap
@@ -8267,10 +8268,10 @@ min_phrase_weight: 100
 洁	git
 滐	git
 潔	git
-竭	git
+竭	git	0%
 竭	kit
 結	git
-結	lit
+結	lit	0%
 絜	git
 絜	kit
 结	git
@@ -8293,9 +8294,9 @@ min_phrase_weight: 100
 䮦	giu
 侥	giu
 侥	hiu
-僥	giu
+僥	giu	0%
 僥	hiu
-僥	jiu
+僥	jiu	0%
 儌	giu
 儌	hiu
 叫	giu
@@ -8319,13 +8320,13 @@ min_phrase_weight: 100
 浇	giu
 浇	hiu
 澆	giu
-澆	hiu
+澆	hiu	0%
 皦	giu
 矫	giu
 矯	giu
-矯	kiu
+矯	kiu	0%
 繳	giu
-繳	zoek
+繳	zoek	0%
 缴	giu
 蟜	giu
 譑	giu
@@ -8388,7 +8389,7 @@ min_phrase_weight: 100
 僵	goeng
 唴	goeng
 姜	goeng
-強	goeng
+強	goeng	0%
 強	koeng
 彊	goeng
 彊	koeng
@@ -8465,7 +8466,7 @@ min_phrase_weight: 100
 硌	lok
 袼	gok
 角	gok
-角	luk
+角	luk	0%
 郝	gok
 郝	kok
 鉻	gok
@@ -8480,7 +8481,7 @@ min_phrase_weight: 100
 䵟	gon
 乹	gon
 乾	gon
-乾	kin
+乾	kin	0%
 干	gon
 幹	gon
 旰	gon
@@ -8488,7 +8489,7 @@ min_phrase_weight: 100
 杆	gon
 桿	gon
 榦	gon
-榦	hon
+榦	hon	0%
 漧	gon
 玕	gon
 皯	gon
@@ -8536,13 +8537,13 @@ min_phrase_weight: 100
 岡	gong
 崗	gong
 扛	gong
-扛	kong
+扛	kong	0%
 摃	gong
 杠	gong
 棡	gong
 槓	gong
 槓	gung
-槓	lung
+槓	lung	0%
 江	gong
 洚	gong
 港	gong
@@ -8632,7 +8633,7 @@ min_phrase_weight: 100
 𣓌	gou
 𦤎	gou
 果	gu	0%
-果	gwo	100%
+果	gwo	1
 㚉	gu
 㼋	gu
 㽽	gu
@@ -8763,7 +8764,7 @@ min_phrase_weight: 100
 蘜	guk
 諊	guk
 谷	guk
-谷	juk
+谷	juk	0%
 趜	guk
 跼	guk
 踘	guk
@@ -8781,7 +8782,7 @@ min_phrase_weight: 100
 頊	juk
 顼	guk
 顼	juk
-鵠	guk
+鵠	guk	0%
 鵠	huk
 鹄	guk
 鹄	huk
@@ -8895,7 +8896,7 @@ min_phrase_weight: 100
 涳	gung
 涳	hung
 珙	gung
-紅	gung
+紅	gung	0%
 紅	hung
 芎	gung
 芎	hung
@@ -8929,7 +8930,7 @@ min_phrase_weight: 100
 寡	gwaa
 挂	gwaa
 掛	gwaa
-掛	kwaa
+掛	kwaa	4%
 瓜	gwaa
 絓	gwaa
 緺	gwaa
@@ -9030,7 +9031,7 @@ min_phrase_weight: 100
 俇	gwaang
 俇	gwong
 俇	hong
-逛	gwaang
+逛	gwaang	0%
 逛	kwaang
 㑮	gwaat
 㑮	waan
@@ -9167,13 +9168,13 @@ min_phrase_weight: 100
 军	gwan
 君	gwan
 均	gwan
-均	kwan
-均	wan
+均	kwan	0%
+均	wan	0%
 崑	gwan
 崑	kwan
 掍	gwan
 掍	wan
-昆	gwan
+昆	gwan	0%
 昆	kwan
 晜	gwan
 晜	kwan
@@ -9181,7 +9182,7 @@ min_phrase_weight: 100
 滚	gwan
 滚	kwan
 滾	gwan
-滾	kwan
+滾	kwan	0%
 焜	gwan
 珺	gwan
 琨	gwan
@@ -9416,8 +9417,8 @@ min_phrase_weight: 100
 幗	gwok
 廓	gwok
 廓	kwok
-擴	gwok
-擴	kong
+擴	gwok	0%
+擴	kong	0%
 擴	kwok
 擴	kwong
 椁	gwok
@@ -9440,7 +9441,7 @@ min_phrase_weight: 100
 洸	gwong
 犷	gwong
 獷	gwong
-礦	gwong
+礦	gwong	0%
 礦	kwong
 穬	gwong
 穬	kong
@@ -9473,8 +9474,8 @@ min_phrase_weight: 100
 券	gyun
 券	hyun
 卷	gyun
-卷	kyun
-圈	gyun
+卷	kyun	0%
+圈	gyun	0%
 圈	hyun
 埢	gyun
 娟	gyun
@@ -9501,7 +9502,7 @@ min_phrase_weight: 100
 罥	gyun
 菤	gyun
 蠲	gyun
-身	gyun
+身	gyun	0%
 身	san
 鄄	gyun
 鞙	gyun
@@ -9533,8 +9534,8 @@ min_phrase_weight: 100
 吓	haa
 吓	haak
 哈	haa
-哈	haai
-哈	kaa
+哈	haai	0%
+哈	kaa	0%
 夏	haa
 岈	haa
 岈	ngaa
@@ -9579,14 +9580,14 @@ min_phrase_weight: 100
 䱺	haai
 叡	haai
 叡	jeoi
-咳	haai
-咳	hoi
+咳	haai	0%
+咳	hoi	0%
 咳	kat
-咳	koi
+咳	koi	0%
 嗐	haai
 嚡	haai
 孩	haai
-孩	hoi
+孩	hoi	0%
 嶰	haai
 揩	haai
 械	haai
@@ -9605,11 +9606,11 @@ min_phrase_weight: 100
 鞋	haai
 韰	haai
 駭	haai
-駭	hoi
+駭	hoi	0%
 駴	haai
 骇	haai
 骸	haai
-骸	hoi
+骸	hoi	0%
 齘	haai
 龤	haai
 𩋘	haai
@@ -9621,8 +9622,8 @@ min_phrase_weight: 100
 剋	haak
 剋	hak
 喀	haak
-喀	kaa
-喀	kak
+喀	kaa	0%
+喀	kak	0%
 嚇	haak
 客	haak
 諕	haak
@@ -9633,7 +9634,7 @@ min_phrase_weight: 100
 黑	haak
 黑	hak
 喊	haam	1000
-喊	ham
+喊	ham	0%
 㖃	haam
 㖃	haau
 㖤	haam
@@ -9672,7 +9673,7 @@ min_phrase_weight: 100
 函	haam
 咸	haam
 啣	haam
-啣	ham
+啣	ham	0%
 嗛	haam
 嗛	him
 嗛	hip
@@ -9692,13 +9693,13 @@ min_phrase_weight: 100
 諴	haam
 豏	haam
 銜	haam
-銜	ham
+銜	ham	0%
 闞	haam
 闞	ham
 阚	haam
 阚	ham
 陷	haam
-陷	ham
+陷	ham	0%
 餡	haam
 馅	haam
 鬫	haam
@@ -9706,7 +9707,7 @@ min_phrase_weight: 100
 麙	haam
 麙	ngaam
 慳	haan	1000
-慳	han
+慳	han	0%
 㡾	haan
 㯗	haan
 㸧	haan
@@ -9775,7 +9776,7 @@ min_phrase_weight: 100
 䶝	haap
 侠	haap
 侠	hap
-俠	haap
+俠	haap	0%
 俠	hap
 匣	haap
 呷	haap
@@ -9785,7 +9786,7 @@ min_phrase_weight: 100
 峽	haap
 挟	haap
 挟	hip
-挾	haap
+挾	haap	0%
 挾	hip
 掐	haap
 柙	haap
@@ -9826,7 +9827,7 @@ min_phrase_weight: 100
 孝	haau
 尻	haau
 巧	haau
-巧	kiu
+巧	kiu	4%
 恔	haau
 拷	haau
 攷	haau
@@ -9894,7 +9895,7 @@ min_phrase_weight: 100
 騱	hai
 鼷	hai
 𡚦	hai
-可	hak	1%
+可	hak	0.01
 可	ho
 㦦	hak
 㵺	hak
@@ -10010,7 +10011,7 @@ min_phrase_weight: 100
 䛭	hang
 䯒	hang
 亨	hang
-亨	paang
+亨	paang	0%
 倖	hang
 哼	hang
 哼	hng
@@ -10032,7 +10033,7 @@ min_phrase_weight: 100
 硁	hang
 硜	hang
 肯	hang
-肯	hoi
+肯	hoi	0%
 胻	hang
 脝	hang
 茎	hang
@@ -10040,7 +10041,7 @@ min_phrase_weight: 100
 莕	hang
 蘅	hang
 衡	hang
-衡	waang
+衡	waang	0%
 踁	hang
 鏗	hang
 铿	hang
@@ -10249,7 +10250,7 @@ min_phrase_weight: 100
 娸	hei
 媐	hei
 嬉	hei
-屎	hei
+屎	hei	0%
 屎	si
 岂	hei
 巇	hei
@@ -10290,11 +10291,11 @@ min_phrase_weight: 100
 諆	hei
 譆	hei
 豈	hei
-豈	hoi
+豈	hoi	0%
 豨	hei
 起	hei
 醯	hei
-釐	hei
+釐	hei	0%
 釐	lei
 餼	hei
 饩	hei
@@ -10304,7 +10305,7 @@ min_phrase_weight: 100
 䂆	hek
 喫	hek
 喫	jaak
-輕	heng
+輕	heng	0%
 輕	hing
 轻	heng
 轻	hing
@@ -10385,7 +10386,7 @@ min_phrase_weight: 100
 慊	him
 慊	hip
 欠	him
-歉	him
+歉	him	0%
 歉	hip
 猃	him
 獫	him
@@ -10628,14 +10629,14 @@ min_phrase_weight: 100
 儗	ji
 凯	hoi
 凱	hoi
-凱	ngoi
+凱	ngoi	0%
 剀	hoi
 剴	hoi
 咍	hoi
 垲	hoi
 塏	hoi
 害	hoi
-害	hot
+害	hot	0%
 嵦	hoi
 开	hoi
 恺	hoi
@@ -10780,8 +10781,8 @@ min_phrase_weight: 100
 康	hong
 恇	hong
 慷	hong
-慷	hung
-慷	kong
+慷	hung	0%
+慷	kong	0%
 杭	hong
 框	hong
 框	kwaang
@@ -10798,7 +10799,7 @@ min_phrase_weight: 100
 穅	hong
 笐	hong
 筐	hong
-筐	kwaang
+筐	kwaang	0%
 糠	hong
 腔	hong
 航	hong
@@ -10814,7 +10815,7 @@ min_phrase_weight: 100
 项	hong
 颃	hong
 骯	hong
-骯	ngong
+骯	ngong	0%
 骯	ong
 𠵉	hong
 𣚺	hong
@@ -10967,7 +10968,7 @@ min_phrase_weight: 100
 澒	hung
 灴	hung
 熊	hung
-穹	hung
+穹	hung	0%
 穹	kung
 空	hung
 箜	hung
@@ -11038,7 +11039,7 @@ min_phrase_weight: 100
 禢	hyun
 禤	hyun
 絢	hyun
-絢	seon
+絢	seon	0%
 綣	hyun
 绚	hyun
 绻	hyun
@@ -11100,7 +11101,7 @@ min_phrase_weight: 100
 枍	jai
 枻	jai
 枻	sit
-泄	jai
+泄	jai	0%
 泄	sit
 洩	jai
 洩	sit
@@ -11109,7 +11110,7 @@ min_phrase_weight: 100
 跩	jai
 跩	zai
 𠯋	jai
-飲	jam	500%
+飲	jam	5
 㖗	jam
 㖗	zaam
 䅧	jam
@@ -11123,7 +11124,7 @@ min_phrase_weight: 100
 冘	jam
 冘	jau
 吟	jam
-吟	ngam
+吟	ngam	4%
 呥	jam
 呥	jim
 喑	jam
@@ -11141,7 +11142,7 @@ min_phrase_weight: 100
 歆	jam
 淫	jam
 瘖	jam
-簷	jam
+簷	jam	4%
 簷	jim
 簷	sim
 紝	jam
@@ -11182,7 +11183,7 @@ min_phrase_weight: 100
 儿	jan
 刃	jan
 印	jan
-印	ngan
+印	ngan	4%
 听	jan
 听	teng
 听	ting
@@ -11212,7 +11213,7 @@ min_phrase_weight: 100
 歅	jan
 殥	jan
 殷	jan
-殷	jin
+殷	jin	0%
 氤	jan
 洇	jan
 湮	jan
@@ -11223,7 +11224,7 @@ min_phrase_weight: 100
 牣	jan
 猌	jan
 甄	jan
-甄	zan
+甄	zan	0%
 瘾	jan
 癊	jan
 癮	jan
@@ -11247,7 +11248,7 @@ min_phrase_weight: 100
 裀	jan
 訒	jan
 訢	jan
-認	jan
+認	jan	0%
 認	jing
 諲	jan
 讔	jan
@@ -11308,7 +11309,7 @@ min_phrase_weight: 100
 汨	jat
 汨	mik
 泆	jat
-液	jat
+液	jat	0%
 液	jik
 溢	jat
 肸	jat
@@ -11370,11 +11371,11 @@ min_phrase_weight: 100
 攸	jau
 斿	jau
 有	jau
-朽	jau
+朽	jau	0%
 朽	nau
 柔	jau
 柚	jau
-柚	zuk
+柚	zuk	0%
 楢	jau
 楺	jau
 槱	jau
@@ -11451,8 +11452,8 @@ min_phrase_weight: 100
 喏	je
 埜	je
 夜	je
-射	je
-射	jik
+射	je	0%
+射	jik	0%
 射	se
 惹	je
 捓	je
@@ -11467,10 +11468,10 @@ min_phrase_weight: 100
 玡	je
 琊	je
 耶	je
-若	je
+若	je	0%
 若	joek
 野	je
-影	jeng
+影	jeng	0%
 影	jing
 贏	jeng
 贏	jing
@@ -11527,7 +11528,7 @@ min_phrase_weight: 100
 亄	ji
 二	ji
 以	ji
-以	jyu
+以	jyu	0%
 仪	ji
 伊	ji
 佁	ji
@@ -11539,13 +11540,13 @@ min_phrase_weight: 100
 偯	ji
 儀	ji
 兒	ji
-兒	ngai
+兒	ngai	0%
 刵	ji
 劓	ji
 勚	ji
 匜	ji
 医	ji
-台	ji
+台	ji	0%
 台	toi
 吚	ji
 咡	ji
@@ -11557,7 +11558,7 @@ min_phrase_weight: 100
 噫	ji
 圯	ji
 夷	ji
-她	ji
+她	ji	0%
 她	taa
 姨	ji
 嫛	ji
@@ -11579,7 +11580,7 @@ min_phrase_weight: 100
 扆	ji
 拟	ji
 擬	ji
-施	ji
+施	ji	0%
 施	si
 旖	ji
 易	ji
@@ -11648,7 +11649,7 @@ min_phrase_weight: 100
 薏	ji
 薾	ji
 薿	ji
-蛇	ji
+蛇	ji	0%
 蛇	se
 蛜	ji
 螔	ji
@@ -11697,9 +11698,9 @@ min_phrase_weight: 100
 陭	kei
 頤	ji
 颐	ji
-食	ji
-食	sik	500%
-食	zi
+食	ji	0%
+食	sik	5
+食	zi	0%
 飴	ji
 饐	ji
 饴	ji
@@ -11766,7 +11767,7 @@ min_phrase_weight: 100
 譯	jik
 译	jik
 逆	jik
-逆	ngaak
+逆	ngaak	4%
 醳	jik
 醳	sik
 醷	jik
@@ -11936,7 +11937,7 @@ min_phrase_weight: 100
 甗	jin
 睍	jin
 研	jin
-研	ngaan
+研	ngaan	4%
 砚	jin
 硯	jin
 筳	jin
@@ -12000,7 +12001,7 @@ min_phrase_weight: 100
 侀	jing
 偀	jing
 凝	jing
-凝	king
+凝	king	4%
 刑	jing
 型	jing
 塋	jing
@@ -12016,7 +12017,7 @@ min_phrase_weight: 100
 形	jing
 應	jing
 扔	jing
-扔	wing
+扔	wing	0%
 撄	jing
 攖	jing
 映	jing
@@ -12083,7 +12084,7 @@ min_phrase_weight: 100
 鹰	jing
 业	jip
 偞	jip
-嘩	jip
+嘩	jip	0%
 嘩	waa
 孽	jip
 孽	jit
@@ -12096,7 +12097,7 @@ min_phrase_weight: 100
 烨	jip
 燁	jip
 葉	jip
-葉	sip
+葉	sip	0%
 蠥	jip
 蠥	jit
 邺	jip
@@ -12232,7 +12233,7 @@ min_phrase_weight: 100
 遥	jiu
 遶	jiu
 邀	jiu
-陶	jiu
+陶	jiu	0%
 陶	tou
 颻	jiu
 飖	jiu
@@ -12252,7 +12253,7 @@ min_phrase_weight: 100
 㜰	zoek
 弱	joek
 曰	joek
-曰	jyut
+曰	jyut	0%
 楉	joek
 汋	joek
 汋	soek
@@ -12266,7 +12267,7 @@ min_phrase_weight: 100
 箬	joek
 篛	joek
 籥	joek
-籲	joek
+籲	joek	0%
 籲	jyu
 約	joek
 约	joek
@@ -12282,7 +12283,7 @@ min_phrase_weight: 100
 跃	joek
 跃	tik
 躍	joek
-躍	tik
+躍	tik	0%
 鄀	joek
 鈅	joek
 鑰	joek
@@ -12293,7 +12294,7 @@ min_phrase_weight: 100
 䬬	joeng
 䬬	zoeng
 仰	joeng
-仰	ngong
+仰	ngong	4%
 佒	joeng
 儴	joeng
 养	joeng
@@ -12374,8 +12375,8 @@ min_phrase_weight: 100
 㣃	juk
 㣃	zuk
 儥	juk
-噢	juk
-噢	jyu
+噢	juk	0%
+噢	jyu	0%
 噢	ou
 堉	juk
 媷	juk
@@ -12392,7 +12393,7 @@ min_phrase_weight: 100
 浴	juk
 淯	juk
 溽	juk
-澳	juk
+澳	juk	0%
 澳	ou
 煜	juk
 燠	juk
@@ -12409,7 +12410,7 @@ min_phrase_weight: 100
 辱	juk
 逳	juk
 郁	juk
-郁	jyu
+郁	jyu	0%
 鄏	juk
 鈺	juk
 鋈	juk
@@ -12452,7 +12453,7 @@ min_phrase_weight: 100
 戎	jung
 拥	jung
 擁	jung
-擁	ung
+擁	ung	0%
 榕	jung
 毧	jung
 氄	jung
@@ -12461,7 +12462,7 @@ min_phrase_weight: 100
 滃	jung
 滽	jung
 澭	jung
-濃	jung
+濃	jung	0%
 濃	nung
 瀜	jung
 灉	jung
@@ -12540,7 +12541,7 @@ min_phrase_weight: 100
 嚅	jyu
 圄	jyu
 圉	jyu
-女	jyu
+女	jyu	0%
 女	neoi
 如	jyu
 妤	jyu
@@ -12555,12 +12556,12 @@ min_phrase_weight: 100
 屿	jyu
 屿	zeoi
 嵎	jyu
-嶼	jyu
+嶼	jyu	0%
 嶼	zeoi
 帤	jyu
 庾	jyu
 御	jyu
-御	ngaa
+御	ngaa	0%
 愈	jyu
 愉	jyu
 愚	jyu
@@ -12573,7 +12574,7 @@ min_phrase_weight: 100
 敔	jyu
 斞	jyu
 於	jyu
-於	wu
+於	wu	0%
 旟	jyu
 杅	jyu
 棜	jyu
@@ -12723,7 +12724,7 @@ min_phrase_weight: 100
 县	jyun
 员	jyun
 員	jyun
-員	wan
+員	wan	0%
 园	jyun
 圆	jyun
 園	jyun
@@ -12747,7 +12748,7 @@ min_phrase_weight: 100
 怨	jyun
 悬	jyun
 惋	jyun
-惋	wun
+惋	wun	0%
 惌	jyun
 愿	jyun
 懸	jyun
@@ -12962,8 +12963,8 @@ min_phrase_weight: 100
 啓	kai
 啟	kai
 契	kai
-契	kit
-契	sit
+契	kit	0%
+契	sit	0%
 嵇	kai
 嵠	kai
 愒	kai
@@ -13016,8 +13017,8 @@ min_phrase_weight: 100
 㲸	kap
 伋	kap
 吸	kap
-吸	ngap
-圾	kap
+吸	ngap	0%
+圾	kap	0%
 圾	saap
 扱	kap
 歙	kap
@@ -13095,7 +13096,7 @@ min_phrase_weight: 100
 鼽	kau
 瘸	ke
 𡲢	ke
-企	kei	500%
+企	kei	5
 㞿	kei
 㟓	kei
 㟚	kei
@@ -13120,7 +13121,7 @@ min_phrase_weight: 100
 䵭	ze
 䶞	kei
 亓	kei
-俟	kei
+俟	kei	0%
 俟	zi
 冀	kei
 圻	kei
@@ -13133,7 +13134,7 @@ min_phrase_weight: 100
 旂	kei
 旗	kei
 暨	kei
-枝	kei
+枝	kei	0%
 枝	zi
 桤	kei
 棊	kei
@@ -13427,7 +13428,7 @@ min_phrase_weight: 100
 爌	kong
 爌	kwong
 犺	kong
-狂	kong
+狂	kong	0%
 狂	kwong
 矿	kong
 邟	kong
@@ -13437,8 +13438,8 @@ min_phrase_weight: 100
 闶	kong
 鵟	kong
 軲	ku
-會	kui	1%
-會	wui	99%
+會	kui	0.01
+會	wui	0.99
 㱮	kui
 㷐	kui
 㷐	waai
@@ -13764,9 +13765,9 @@ min_phrase_weight: 100
 啦	laa
 嘑	laa
 嚹	laa
-拉	laa
+拉	laa	0%
 拉	laai
-拉	laap
+拉	laap	0%
 揦	laa
 砬	laa
 砬	laap
@@ -13806,7 +13807,7 @@ min_phrase_weight: 100
 舐	lem
 舐	lim
 舐	saai
-落	laai
+落	laai	0%
 落	lok
 藾	laai
 賴	laai
@@ -13957,7 +13958,7 @@ min_phrase_weight: 100
 瘌	laat
 辢	laat
 辣	laat
-辣	lat
+辣	lat	0%
 迾	laat
 迾	lit
 鬎	laat
@@ -14036,9 +14037,9 @@ min_phrase_weight: 100
 囄	lai
 囄	lei
 悷	lai
-捩	lai
+捩	lai	0%
 捩	lit
-捩	leoi
+捩	leoi	0%
 攦	lai
 攭	lai
 栵	lai
@@ -14215,7 +14216,7 @@ min_phrase_weight: 100
 流	lau
 浏	lau
 溜	lau
-溜	liu
+溜	liu	4%
 漊	lau
 漊	lou
 漏	lau
@@ -14255,7 +14256,7 @@ min_phrase_weight: 100
 螻	lau
 蟉	lau
 褸	lau
-褸	leoi
+褸	leoi	0%
 謱	lau
 謱	leoi
 謱	lou
@@ -14270,7 +14271,7 @@ min_phrase_weight: 100
 镠	lau
 陋	lau
 霤	lau
-露	lau
+露	lau	0%
 露	lou
 鞻	lau
 飀	lau
@@ -14292,7 +14293,7 @@ min_phrase_weight: 100
 咧	le
 哩	le
 哩	lei
-哩	li
+哩	li	0%
 褦	le
 褦	naai
 褦	nang
@@ -14338,7 +14339,7 @@ min_phrase_weight: 100
 嫠	lei
 孋	lei
 履	lei
-履	leoi
+履	leoi	0%
 峛	lei
 李	lei
 梨	lei
@@ -14382,7 +14383,7 @@ min_phrase_weight: 100
 蓠	lei
 蘺	lei
 蜊	lei
-裏	lei
+裏	lei	0%
 裏	leoi
 裡	lei
 裡	leoi
@@ -14425,7 +14426,7 @@ min_phrase_weight: 100
 僆	lin
 嶺	leng
 嶺	ling
-靈	leng
+靈	leng	4%
 靈	ling
 靓	leng
 靓	zing
@@ -14480,7 +14481,7 @@ min_phrase_weight: 100
 唳	leoi
 垒	leoi
 壘	leoi
-壘	leot
+壘	leot	0%
 嫘	leoi
 屡	leoi
 屢	leoi
@@ -14589,7 +14590,7 @@ min_phrase_weight: 100
 侖	leon
 倫	leon
 卵	leon
-卵	lo
+卵	lo	0%
 吝	leon
 噒	leon
 囵	leon
@@ -14611,7 +14612,7 @@ min_phrase_weight: 100
 磷	leon
 粦	leon
 粼	leon
-紊	leon
+紊	leon	0%
 紊	man
 膦	leon
 菕	leon
@@ -14715,7 +14716,7 @@ min_phrase_weight: 100
 歷	lik
 沥	lik
 瀝	lik
-爍	lik
+爍	lik	0%
 爍	soek
 瓅	lik
 皪	lik
@@ -15288,7 +15289,7 @@ min_phrase_weight: 100
 垆	lou
 壚	lou
 姥	lou
-姥	mou
+姥	mou	0%
 嫪	lou
 庐	lou
 廬	lou
@@ -15618,7 +15619,7 @@ min_phrase_weight: 100
 马	maa
 骂	maa
 麻	maa
-麼	maa
+麼	maa	0%
 麼	mo
 㜆	maai
 㜥	maai
@@ -15656,7 +15657,7 @@ min_phrase_weight: 100
 䳮	maak
 䳮	maat
 擘	maak
-麥	maak
+麥	maak	0%
 麥	mak
 㗃	maan
 㗈	maan
@@ -15720,7 +15721,7 @@ min_phrase_weight: 100
 孟	maang
 掹	maang
 掹	mang
-氓	maang
+氓	maang	0%
 氓	man
 氓	mong
 猛	maang
@@ -15744,7 +15745,7 @@ min_phrase_weight: 100
 䠚	maat
 抹	maat
 抹	mut
-襪	maat
+襪	maat	0%
 襪	mat
 㚹	maau
 㚹	mau
@@ -15766,7 +15767,7 @@ min_phrase_weight: 100
 昴	maau
 泖	maau
 牡	maau
-牡	mau
+牡	mau	0%
 猫	maau
 矛	maau
 茅	maau
@@ -15775,7 +15776,7 @@ min_phrase_weight: 100
 蟊	maau
 貌	maau
 貓	maau
-貓	miu
+貓	miu	0%
 鉚	maau
 錨	maau
 錨	naau
@@ -15818,7 +15819,7 @@ min_phrase_weight: 100
 䁿	mak
 䘑	mak
 䮮	mak
-冒	mak
+冒	mak	0%
 冒	mou
 唛	mak
 嘜	mak
@@ -15880,7 +15881,7 @@ min_phrase_weight: 100
 伩	man
 伩	seon
 僶	man
-免	man
+免	man	0%
 免	min
 刎	man
 勄	man
@@ -16121,7 +16122,7 @@ min_phrase_weight: 100
 镁	mei
 靡	mei
 魅	mei
-魅	mui
+魅	mui	0%
 鮇	mei
 麋	mei
 黴	mei
@@ -16278,7 +16279,7 @@ min_phrase_weight: 100
 塺	mui
 摩	mo
 摸	mo
-摸	mok
+摸	mok	0%
 擵	mo
 磨	mo
 藦	mo
@@ -16304,9 +16305,9 @@ min_phrase_weight: 100
 瘼	mok
 瞙	mok
 膜	mok
-膜	mou
+膜	mou	0%
 莫	mok
-莫	mou
+莫	mou	0%
 鄚	mok
 鏌	mok
 镆	mok
@@ -16328,7 +16329,7 @@ min_phrase_weight: 100
 䥰	mong
 䵨	mong
 亡	mong
-亡	mou
+亡	mou	0%
 兦	mong
 厖	mong
 厖	pong
@@ -16647,7 +16648,7 @@ min_phrase_weight: 100
 𤸻	naa
 𪐀	naa
 乃	naai
-乃	oi
+乃	oi	0%
 奶	naai
 嬭	naai
 氖	naai
@@ -16691,11 +16692,11 @@ min_phrase_weight: 100
 䘅	naang
 䯮	naang
 䯮	nai
-內	naap
+內	naap	0%
 內	noi
 吶	naap
-吶	nat
-吶	neot
+吶	nat	0%
+吶	neot	0%
 呐	naap
 呐	neot
 納	naap
@@ -16746,7 +16747,7 @@ min_phrase_weight: 100
 坭	nai
 抳	nai
 泥	nai
-泥	nei
+泥	nei	0%
 臡	nai
 苨	nai
 苨	nei
@@ -16812,7 +16813,7 @@ min_phrase_weight: 100
 紐	nau
 纽	nau
 耨	nau
-膩	nau
+膩	nau	0%
 膩	nei
 鈕	nau
 鎒	nau
@@ -16873,7 +16874,7 @@ min_phrase_weight: 100
 釹	neoi
 钕	neoi
 餒	neoi
-餒	noi
+餒	noi	0%
 㕯	neot
 䎪	neot
 䭆	neot
@@ -16942,9 +16943,9 @@ min_phrase_weight: 100
 牙	ngaa
 犽	ngaa
 瓦	ngaa
-疋	ngaa
+疋	ngaa	0%
 疋	pat
-疋	so
+疋	so	0%
 砑	ngaa
 芽	ngaa
 蚜	ngaa
@@ -17203,8 +17204,8 @@ min_phrase_weight: 100
 㕌	ngoi
 㕌	zak
 外	ngoi
-外	oi
-愛	ngoi
+外	oi	0%
+愛	ngoi	0%
 愛	oi
 氨	ngoi
 氨	on
@@ -17237,7 +17238,7 @@ min_phrase_weight: 100
 恶	ngok
 恶	ok
 恶	wu
-惡	ngok
+惡	ngok	0%
 惡	ok
 惡	wu
 愕	ngok
@@ -17261,10 +17262,10 @@ min_phrase_weight: 100
 𩓥	ngok
 㸩	ngon
 䯃	ngon
-安	ngon
+安	ngon	0%
 安	on
 岸	ngon
-案	ngon
+案	ngon	0%
 案	on
 胺	ngon
 胺	on
@@ -17331,7 +17332,7 @@ min_phrase_weight: 100
 𦪈	ngou
 剭	nguk
 剭	uk
-屋	nguk
+屋	nguk	0%
 屋	uk
 𡃵	ngung
 𢫨	ngung
@@ -17351,7 +17352,7 @@ min_phrase_weight: 100
 昵	nik
 暱	nik
 溺	nik
-溺	niu
+溺	niu	0%
 疒	nik
 砾	nik
 𣘗	nik
@@ -17381,7 +17382,7 @@ min_phrase_weight: 100
 鯰	nim
 鲶	nim
 黏	nim
-黏	zim
+黏	zim	0%
 㞋	nin
 㮟	nin
 䄭	nin
@@ -17395,7 +17396,7 @@ min_phrase_weight: 100
 跈	nin
 蹍	nin
 蹍	zin
-輾	nin
+輾	nin	0%
 輾	zin
 𢆡	nin
 㣷	ning
@@ -17452,7 +17453,7 @@ min_phrase_weight: 100
 䳖	nip
 捏	nip
 揑	nip
-攝	nip
+攝	nip	0%
 攝	sip
 敜	nip
 涅	nip
@@ -17484,7 +17485,7 @@ min_phrase_weight: 100
 嫋	niu
 嬝	niu
 尿	niu
-尿	seoi
+尿	seoi	0%
 茑	niu
 蔦	niu
 袅	niu
@@ -17698,7 +17699,7 @@ min_phrase_weight: 100
 䎬	paa
 䎱	paa
 帊	paa
-帕	paa
+帕	paa	0%
 帕	paak
 怕	paa
 扒	paa
@@ -17843,7 +17844,7 @@ min_phrase_weight: 100
 牝	pan
 玭	pan
 矉	pan
-蘋	pan
+蘋	pan	0%
 蘋	ping
 貧	pan
 贫	pan
@@ -17949,13 +17950,13 @@ min_phrase_weight: 100
 𨉉	pei
 䌟	pek
 劈	pek
-劈	pik
+劈	pik	0%
 噼	pek
 噼	pet
 呯	peng
 平	peng
 平	ping
-瓶	peng
+瓶	peng	0%
 瓶	ping
 𠝭	peng
 𣖕	peng
@@ -18018,7 +18019,7 @@ min_phrase_weight: 100
 帡	ping
 帲	ping
 怦	ping
-拚	ping
+拚	ping	0%
 拚	pun
 拼	ping
 枰	ping
@@ -18290,7 +18291,7 @@ min_phrase_weight: 100
 曬	saai
 枲	saai
 枲	sai
-殺	saai
+殺	saai	0%
 殺	saat
 漇	saai
 玺	saai
@@ -18310,7 +18311,7 @@ min_phrase_weight: 100
 梀	saak
 索	saak
 索	sok
-索	suk
+索	suk	0%
 𢱢	saak
 㓄	saam
 㓄	zaam
@@ -18428,19 +18429,19 @@ min_phrase_weight: 100
 䴤	sang
 渻	saang
 渻	sing
-牲	saang
+牲	saang	0%
 牲	sang
 琤	saang
 琤	zaang
 琤	zang
 生	saang
 生	sang
-甥	saang
+甥	saang	0%
 甥	sang
 省	saang
 省	sing
 眚	saang
-笙	saang
+笙	saang	0%
 笙	sang
 胜	saang
 胜	sing
@@ -18613,7 +18614,7 @@ min_phrase_weight: 100
 䲋	sam
 䵇	sam
 什	sam
-什	sap
+什	sap	0%
 什	zaap
 伈	sam
 婶	sam
@@ -18638,7 +18639,7 @@ min_phrase_weight: 100
 瀋	sam
 琛	sam
 甚	sam
-甚	sap
+甚	sap	0%
 瞫	sam
 綝	sam
 芯	sam
@@ -18716,7 +18717,7 @@ min_phrase_weight: 100
 㼳	zip
 䚇	sang
 䚇	sing
-僧	sang
+僧	sang	0%
 僧	zang
 擤	sang
 狌	sang
@@ -18804,7 +18805,7 @@ min_phrase_weight: 100
 溲	sau
 滫	sau
 漱	sau
-漱	sou
+漱	sou	0%
 潃	sau
 狩	sau
 獀	sau
@@ -18925,7 +18926,7 @@ min_phrase_weight: 100
 祏	sek
 祏	sik
 錫	sek
-錫	sik
+錫	sik	0%
 锡	sek
 鼫	sek
 𡃶	sek
@@ -18933,15 +18934,15 @@ min_phrase_weight: 100
 城	sing
 声	seng
 声	sing
-姓	seng
+姓	seng	0%
 姓	sing
-星	seng
+星	seng	0%
 星	sing
 聲	seng
 聲	sing
 腥	seng
 腥	sing
-醒	seng
+醒	seng	0%
 醒	sing
 鍟	seng
 㑔	seoi
@@ -19008,14 +19009,14 @@ min_phrase_weight: 100
 嵗	seoi
 帅	seoi
 帥	seoi
-帥	seot
+帥	seot	0%
 帨	seoi
 彗	seoi
-彗	wai
+彗	wai	0%
 悴	seoi
 挩	seoi
 挩	tyut
-摔	seoi
+摔	seoi	0%
 摔	seot
 楈	seoi
 槥	seoi
@@ -19157,7 +19158,7 @@ min_phrase_weight: 100
 狥	seon
 珣	seon
 皴	seon
-盾	seon
+盾	seon	0%
 盾	teon
 瞚	seon
 瞬	seon
@@ -19165,7 +19166,7 @@ min_phrase_weight: 100
 筍	seon
 簨	seon
 純	seon
-純	zeon
+純	zeon	0%
 纯	seon
 脣	seon
 膞	seon
@@ -19188,7 +19189,7 @@ min_phrase_weight: 100
 醇	seon
 順	seon
 顺	seon
-鶉	seon
+鶉	seon	0%
 鹑	seon
 㖅	seot
 㞊	seot
@@ -19278,7 +19279,7 @@ min_phrase_weight: 100
 弑	si
 弒	si
 思	si
-思	soi
+思	soi	0%
 戺	si
 撕	si
 斯	si
@@ -19289,7 +19290,7 @@ min_phrase_weight: 100
 柶	si
 榯	si
 氏	si
-氏	zi
+氏	zi	0%
 泗	si
 溮	si
 澌	si
@@ -19354,7 +19355,7 @@ min_phrase_weight: 100
 𠿁	si
 𩶬	si
 𫚕	si
-惜	sik	500%
+惜	sik	5
 㛭	sik
 㛭	sim
 㝜	sik
@@ -19455,7 +19456,7 @@ min_phrase_weight: 100
 蝉	sim
 蝉	sin
 蟬	sim
-蟬	sin
+蟬	sin	0%
 蟾	sim
 裧	sim
 贍	sim
@@ -19690,10 +19691,10 @@ min_phrase_weight: 100
 䰑	sou
 䴛	siu
 兆	siu
-兆	ziu
+兆	ziu	0%
 劭	siu
 卲	siu
-召	siu
+召	siu	0%
 召	ziu
 啸	siu
 嘯	siu
@@ -19811,7 +19812,7 @@ min_phrase_weight: 100
 䵼	soeng
 上	soeng
 伤	soeng
-倘	soeng
+倘	soeng	0%
 倘	tong
 偿	soeng
 傷	soeng
@@ -19835,7 +19836,7 @@ min_phrase_weight: 100
 殇	soeng
 殤	soeng
 湘	soeng
-湯	soeng
+湯	soeng	0%
 湯	tong
 熵	soeng
 瓖	soeng
@@ -20006,7 +20007,7 @@ min_phrase_weight: 100
 属	suk
 属	zuk
 屬	suk
-屬	zuk
+屬	zuk	0%
 橚	suk
 淑	suk
 焂	suk
@@ -20196,7 +20197,7 @@ min_phrase_weight: 100
 蓀	syun
 选	syun
 選	syun
-還	syun
+還	syun	0%
 還	waan
 酸	syun
 鏇	syun
@@ -20220,14 +20221,14 @@ min_phrase_weight: 100
 鳕	syut
 𠽌	syut
 他	taa
-他	to
-佗	taa
+他	to	0%
+佗	taa	0%
 佗	to
 它	taa
-它	to
+它	to	0%
 怹	taa
 牠	taa
-牠	to
+牠	to	0%
 祂	taa
 鉈	taa
 鉈	to
@@ -20264,7 +20265,7 @@ min_phrase_weight: 100
 舦	taai
 艜	taai
 貸	taai
-貸	tik
+貸	tik	0%
 贷	taai
 鈦	taai
 钛	taai
@@ -20354,7 +20355,7 @@ min_phrase_weight: 100
 塔	taap
 拓	taap
 拓	tok
-拓	zek
+拓	zek	0%
 搨	taap
 榻	taap
 毾	taap
@@ -20472,7 +20473,7 @@ min_phrase_weight: 100
 䲢	tang
 滕	tang
 疼	tang
-疼	tung
+疼	tung	0%
 籐	tang
 縢	tang
 腾	tang
@@ -20509,7 +20510,7 @@ min_phrase_weight: 100
 聽	teng
 聽	ting
 艇	teng
-艇	ting
+艇	ting	0%
 㞂	teoi
 㞜	teoi
 㢈	teoi
@@ -20695,7 +20696,7 @@ min_phrase_weight: 100
 庣	tiu
 恌	tiu
 挑	tiu
-挑	tou
+挑	tou	0%
 朓	tiu
 条	tiu
 條	tiu
@@ -20735,7 +20736,7 @@ min_phrase_weight: 100
 䲊	to
 唾	to
 唾	toe
-唾	tou
+唾	tou	0%
 坨	to
 堶	to
 妥	to
@@ -21089,7 +21090,7 @@ min_phrase_weight: 100
 喎	wo	1000
 娃	waa
 崋	waa
-挖	waa
+挖	waa	0%
 挖	waat
 搲	waa
 搲	we
@@ -21107,7 +21108,7 @@ min_phrase_weight: 100
 蛙	waa
 蜗	waa
 蜗	wo
-蝸	waa
+蝸	waa	0%
 蝸	wo
 話	waa
 譁	waa
@@ -21157,7 +21158,7 @@ min_phrase_weight: 100
 槐	waai
 櫰	waai
 淮	waai
-獲	waai
+獲	waai	0%
 獲	wok
 蘹	waai
 蘾	waai
@@ -21382,7 +21383,7 @@ min_phrase_weight: 100
 葳	wai
 蒍	wai
 蔚	wai
-蔚	wat
+蔚	wat	0%
 蕙	wai
 薉	wai
 蜼	wai
@@ -21674,7 +21675,7 @@ min_phrase_weight: 100
 瓠	wu
 矱	wok
 穫	wok
-穫	wu
+穫	wu	0%
 臒	wok
 臒	wu
 获	wok
@@ -22007,7 +22008,7 @@ min_phrase_weight: 100
 债	zaai
 債	zaai
 寨	zaai
-寨	zai
+寨	zai	0%
 廌	zaai
 廌	zai
 廌	zi
@@ -22121,7 +22122,7 @@ min_phrase_weight: 100
 簪	zaam
 糌	zaam
 蘸	zaam
-賺	zaam
+賺	zaam	0%
 賺	zaan
 赚	zaam
 赚	zaan
@@ -22221,7 +22222,7 @@ min_phrase_weight: 100
 崢	zang
 挣	zaang
 挣	zang
-掙	zaang
+掙	zaang	0%
 掙	zang
 狰	zaang
 狰	zang
@@ -22229,11 +22230,11 @@ min_phrase_weight: 100
 猙	zang
 睁	zaang
 睁	zang
-睜	zaang
+睜	zaang	0%
 睜	zang
 筝	zaang
 筝	zang
-箏	zaang
+箏	zaang	0%
 箏	zang
 諍	zaang
 諍	zang
@@ -22272,7 +22273,7 @@ min_phrase_weight: 100
 劄	zaap
 匝	zaap
 嶍	zaap
-摺	zaap
+摺	zaap	4%
 摺	zip
 杂	zaap
 槢	zaap
@@ -22404,7 +22405,7 @@ min_phrase_weight: 100
 䱂	zaau
 嘲	zaau
 帚	zaau
-帚	zau
+帚	zau	0%
 找	zaau
 棹	zaau
 棹	zoek
@@ -22413,15 +22414,15 @@ min_phrase_weight: 100
 爫	zaau
 瑵	zaau
 瑵	zou
-着	zaau
-着	zau
+着	zaau	0%
+着	zau	0%
 着	zoek
 笊	zaau
 罩	zaau
 肘	zaau
 肘	zau
 驟	zaau
-驟	zau
+驟	zau	0%
 骤	zaau
 骤	zau
 鵫	zaau
@@ -22764,7 +22765,7 @@ min_phrase_weight: 100
 䩾	ze
 借	ze
 嗟	ze
-姊	ze
+姊	ze	4%
 姊	zi
 姐	ze
 柘	ze
@@ -22787,39 +22788,39 @@ min_phrase_weight: 100
 鷓	ze
 鹧	ze
 𡂪	ze
-只	zek
+只	zek	0%
 只	zi
 呮	zek
 唧	zek
 唧	zik
 摭	zek
 炙	zek
-炙	zik
-績	zek
+炙	zik	0%
+績	zek	0%
 績	zik
 脊	zek
-脊	zik
+脊	zik	0%
 膌	zek
 蓆	zek
 蓆	zik
 跖	zek
-跡	zek
+跡	zek	0%
 跡	zik
 隻	zek
 丼	zeng
 丼	zing
 井	zeng
-井	zing
+井	zing	0%
 净	zeng
 净	zing
 凈	zeng
 凈	zing
-正	zeng
+正	zeng	4%
 正	zing
 汫	zeng
-淨	zeng
+淨	zeng	0%
 淨	zing
-精	zeng
+精	zeng	4%
 精	zing
 肼	zeng
 郑	zeng
@@ -22902,7 +22903,7 @@ min_phrase_weight: 100
 贅	zeoi
 赘	zeoi
 趄	zeoi
-足	zeoi
+足	zeoi	0%
 足	zuk
 跙	zeoi
 辠	zeoi
@@ -22951,7 +22952,7 @@ min_phrase_weight: 100
 准	zeon
 埻	zeon
 寯	zeon
-尊	zeon
+尊	zeon	0%
 尊	zyun
 尽	zeon
 峻	zeon
@@ -22995,7 +22996,7 @@ min_phrase_weight: 100
 进	zeon
 進	zeon
 遵	zeon
-遵	zyun
+遵	zyun	0%
 隼	zeon
 餕	zeon
 馂	zeon
@@ -23138,7 +23139,7 @@ min_phrase_weight: 100
 巵	zi
 庤	zi
 彘	zi
-徵	zi
+徵	zi	0%
 徵	zing
 志	zi
 恉	zi
@@ -23163,7 +23164,7 @@ min_phrase_weight: 100
 渍	zi
 滋	zi
 滓	zi
-漬	zi
+漬	zi	0%
 牸	zi
 甾	zi
 甾	zoi
@@ -23649,7 +23650,7 @@ min_phrase_weight: 100
 讋	zip
 讘	zip
 輒	zip
-輒	zit
+輒	zit	0%
 辄	zip
 霅	zip
 鮿	zip
@@ -23734,7 +23735,7 @@ min_phrase_weight: 100
 䶰	ziu
 僬	ziu
 噍	ziu
-嚼	ziu
+嚼	ziu	0%
 嚼	zoek
 垗	ziu
 招	ziu
@@ -23805,7 +23806,7 @@ min_phrase_weight: 100
 爝	zoek
 爵	zoek
 禚	zoek
-著	zoek
+著	zoek	0%
 著	zyu
 酌	zoek
 雀	zoek
@@ -24436,7 +24437,6 @@ out	au
 book	buk
 check	cek
 cheap	cip
-鬥細佬哥	dau
 foul	fau
 friend	fen
 feel	fiu
@@ -24454,6 +24454,8 @@ talk	tok
 van	wen
 可汗	hak hon
 什麼	sam mo
+番禺	pun jyu
+南番順	naam pun seon
 # 粵語用詞
 亞爸	aa baa
 亞保亞勝	aa bou aa sing
