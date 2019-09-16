@@ -57,6 +57,8 @@ speller:
     - derive/^jy?([aeiou])/y$1/  # 容錯 je -> ye, jyu -> yu
     - derive/^jyu/ju/            # 容錯 jyu -> ju
     - derive/yu/y/               # 教院式 jyu -> jy
+    - derive/^gw([aeiou])/g$1/   # 懶音 開合口不分
+    - derive/^kw([aeiou])/k$1/   # 懶音 開合口不分
     - derive/eoi$/oey/           # 教院式
     - derive/eoi$/eoy/           # 容錯
     - derive/eo/oe/              # 教院式
