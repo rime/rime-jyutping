@@ -69,14 +69,17 @@ speller:
     - abbrev/^([gk]w).+$/$1/     # 聲母簡拼
     - abbrev/^(dz).+$/$1/        # 聲母簡拼
     - abbrev/^(ts).+$/$1/        # 聲母簡拼
-    # # 取消以下兩行註釋，支持疑影不分懶音
-    # - derive/^ng([aeiou])/$1/
-    # - derive/^([aeiou])/ng$1/
-    # # 取消下一行註釋，支持泥來不分（你-理 不分）懶音
-    # - derive/^n([aeiou])/l$1/
-    # # 取消以下兩行註釋，支持開合口不分（國-各、擴-確 不分）懶音
-    # - derive/^gw([aeiou])/g$1/
-    # - derive/^kw([aeiou])/k$1/
+    # 取消以下註釋，支持疑影不分
+    #- derive/^ng([aeou])/$1/
+    #- derive/^([aeou])/ng$1/
+    # 取消以下註釋，支持泥併入來，如「你」讀若「理」
+    #- derive/^n/l/
+    # 取消以下註釋，支持 g, k 後的圓脣色彩脱落，如「國」讀若「各」、「擴」讀若「確」
+    #- derive/^(g|k)w/$1/
+    # 取消以下註釋，支持 ng 讀若 m，如「吳」讀若「唔」
+    #- derive/^ng$/m/
+    # 取消以下註釋，支持長短 a 不分
+    #- derive/aa/a/
 
 translator:
   dictionary: jyutping
