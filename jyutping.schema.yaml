@@ -57,8 +57,6 @@ speller:
     - derive/^jy?([aeiou])/y$1/  # 容錯 je -> ye, jyu -> yu
     - derive/^jyu/ju/            # 容錯 jyu -> ju
     - derive/yu/y/               # 教院式 jyu -> jy
-    - derive/^gw([aeiou])/g$1/   # 懶音 開合口不分
-    - derive/^kw([aeiou])/k$1/   # 懶音 開合口不分
     - derive/eoi$/oey/           # 教院式
     - derive/eoi$/eoy/           # 容錯
     - derive/eo/oe/              # 教院式
@@ -71,6 +69,14 @@ speller:
     - abbrev/^([gk]w).+$/$1/     # 聲母簡拼
     - abbrev/^(dz).+$/$1/        # 聲母簡拼
     - abbrev/^(ts).+$/$1/        # 聲母簡拼
+    # # 取消以下兩行註釋，支持疑影不分懶音
+    # - derive/^ng([aeiou])/$1/
+    # - derive/^([aeiou])/ng$1/
+    # # 取消下一行註釋，支持泥來不分（你-理 不分）懶音
+    # - derive/^n([aeiou])/l$1/
+    # # 取消以下兩行註釋，支持開合口不分（國-各、擴-確 不分）懶音
+    # - derive/^gw([aeiou])/g$1/
+    # - derive/^kw([aeiou])/k$1/
 
 translator:
   dictionary: jyutping
