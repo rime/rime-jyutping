@@ -61,12 +61,9 @@ speller:
     - derive/eoi$/eoy/           # 容錯
     - derive/eo/oe/              # 教院式
     - derive/oe(ng|k)$/eo$1/     # 容錯
-    - derive/aa$/a/              # 容錯
     - abbrev/^([a-z]).+$/$1/     # 首字母簡拼
     - derive/^z/dz/              # 教院式
     - derive/^c/ts/              # 教院式
-    - abbrev/^(ng).+$/$1/        # 聲母簡拼
-    - abbrev/^([gk]w).+$/$1/     # 聲母簡拼
     - abbrev/^(dz).+$/$1/        # 聲母簡拼
     - abbrev/^(ts).+$/$1/        # 聲母簡拼
     # 取消以下註釋，支持疑影不分
