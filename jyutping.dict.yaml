@@ -98,7 +98,6 @@ min_phrase_weight: 100
 欸	aai
 欸	ei
 欸	oi
-矮	aai
 矮	ai
 誒	aai
 誒	e
@@ -136,7 +135,6 @@ min_phrase_weight: 100
 搹	ngak
 軛	aak
 軶	aak
-軶	ngaak
 轭	aak
 轭	ngaak
 鈪	aak
@@ -198,8 +196,6 @@ min_phrase_weight: 100
 嚈	aat
 嚈	jip
 堨	aat
-堨	ngaat
-堨	ngoi
 堨	oi
 壓	aat
 恝	aat
@@ -223,7 +219,6 @@ min_phrase_weight: 100
 阏	jin
 頞	aat
 齃	aat
-齃	ngaat
 詏	aau
 㔚	aau
 㔚	haau
@@ -290,10 +285,12 @@ min_phrase_weight: 100
 搤	ak
 渥	ak
 腛	ak
-腛	ngak
 阨	ak
 餩	ak
 唵	am
+啽	am
+啽	ngam
+啽	ngap
 噷	am
 噷	hm
 垵	am
@@ -306,12 +303,10 @@ min_phrase_weight: 100
 掩	am
 掩	jim
 揞	am
-揞	ngam
 晻	am
 暗	am
 盦	am
 腤	am
-腤	ngam
 菴	am
 諳	am
 谙	am
@@ -376,6 +371,9 @@ min_phrase_weight: 100
 䯧	king
 䰲	at
 䰲	zat
+扤	at
+扤	ngaat
+扤	ngat
 區	au	1%
 區	keoi	99%
 㑃	au
@@ -397,7 +395,6 @@ min_phrase_weight: 100
 敺	keoi
 櫙	au
 欧	au
-欧	ngau
 歐	au
 殴	au
 毆	au
@@ -16992,9 +16989,8 @@ min_phrase_weight: 100
 鴈	ngaan
 硬	ngaang
 擪	ngaap
+擪	jip
 㐳	ngaat
-扤	ngaat
-扤	ngat
 㞕	ngaat
 㞕	sit
 㽾	ngaat
@@ -17087,8 +17083,6 @@ min_phrase_weight: 100
 𫐐	ngai
 䩹	ngak
 䱮	ngak
-啽	ngam
-啽	ngap
 㒄	ngam
 㒄	zim
 㚧	ngam
@@ -17156,7 +17150,6 @@ min_phrase_weight: 100
 俄	ngo
 卧	ngo
 吪	ngo
-哦	ngo
 哦	o
 娥	ngo
 峨	ngo
@@ -17182,10 +17175,6 @@ min_phrase_weight: 100
 㕌	ngoi
 㕌	zak
 外	ngoi
-氨	ngoi
-氨	on
-爱	ngoi
-爱	oi
 璦	ngoi
 璦	oi
 碍	ngoi
@@ -17230,7 +17219,6 @@ min_phrase_weight: 100
 㸩	ngon
 䯃	ngon
 岸	ngon
-胺	on
 銨	ngon
 銨	on
 𩣑	ngon
@@ -17292,11 +17280,6 @@ min_phrase_weight: 100
 鼇	ngou
 𢳆	ngou
 𦪈	ngou
-剭	nguk
-剭	uk
-𡃵	ngung
-𢫨	ngung
-𢶜	ngung
 㥾	nik
 㲻	nik
 䁥	nik
@@ -17600,6 +17583,7 @@ min_phrase_weight: 100
 瞹	oi
 蔼	oi
 愛	oi
+爱	oi
 薆	oi
 藹	oi
 鑀	oi
@@ -17607,6 +17591,7 @@ min_phrase_weight: 100
 靄	oi
 靉	oi
 噁	ok
+噁	wu
 恶	ok
 恶	wu
 惡	ok
@@ -17614,6 +17599,9 @@ min_phrase_weight: 100
 垩	ok
 堊	ok
 安	on
+氨	on
+胺	on
+胺	aat
 案	on
 㫨	on
 䀂	on
@@ -21029,7 +21017,11 @@ min_phrase_weight: 100
 脱	tyut
 莌	tyut
 屋	uk
+剭	uk
 瓮	ung
+𡃵	ung
+𢫨	ung
+𢶜	ung
 齆	ung
 汙	waa	0%
 汙	wu
