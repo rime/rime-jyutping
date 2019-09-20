@@ -56,7 +56,6 @@ min_phrase_weight: 100
 瘂	aa
 襾	aa
 襾	kaa
-那	aa
 那	naa
 那	no
 錏	aa
@@ -92,9 +91,6 @@ min_phrase_weight: 100
 唉	oi
 埃	aai
 埃	oi
-娭	aai
-娭	ngaai
-娭	oi
 欸	aai
 欸	ei
 欸	oi
@@ -103,9 +99,6 @@ min_phrase_weight: 100
 誒	e
 誒	ei
 誒	oi
-譺	aai
-譺	jik
-譺	ngaai
 诶	aai
 诶	ei
 诶	oi
@@ -114,7 +107,6 @@ min_phrase_weight: 100
 餲	aat
 㧖	aak
 㧖	ak
-㧖	zim
 䝈	aak
 䝈	ak
 䠎	aak
@@ -128,17 +120,14 @@ min_phrase_weight: 100
 呃	aak
 呃	ak	1000
 扼	aak
-扼	ak
 握	aak
 握	ak
 搹	aak
-搹	ngak
+搹	ak
 軛	aak
 軶	aak
 轭	aak
-轭	ngaak
 鈪	aak
-鈪	ngaak
 齷	aak
 齷	ak
 龌	aak
@@ -169,15 +158,9 @@ min_phrase_weight: 100
 䳺	an
 菡	aam
 菡	haam
-贋	aam
-贋	am
-贋	ngaam
-贋	ngam
-贋	ngan
+贋	ngaan
 晏	aan
-晏	ngaan	1000
 鴳	aan
-鴳	ngaan
 鷃	aan
 䓨	aang
 䞷	aang
@@ -210,7 +193,6 @@ min_phrase_weight: 100
 歹	daai
 猒	aat
 猒	jim
-猒	ngaat
 遏	aat
 遏	kit
 閼	aat
@@ -258,9 +240,7 @@ min_phrase_weight: 100
 抓	zaau
 抝	aau
 拗	aau
-拗	ngaau
 靿	aau
-靿	ngaau
 䅬	ai
 嫕	ai
 嫕	ji
@@ -272,9 +252,7 @@ min_phrase_weight: 100
 翳	ai
 翳	ji
 豷	ai
-豷	ngai
 躷	ai
-躷	ngai
 㬬	ak
 㬬	geoi
 偓	ak
@@ -312,14 +290,11 @@ min_phrase_weight: 100
 谙	am
 闇	am
 韽	am
-韽	ngam
 鵪	am
 鹌	am
 黭	am
 黭	jim
 黯	am
-𡁏	am
-𡁏	ngam
 㜝	an
 䞁	an
 䞁	zan
@@ -343,7 +318,6 @@ min_phrase_weight: 100
 莺	ang
 鞥	ang
 鶯	ang
-噏	ap
 噏	ngap
 洽	ap
 洽	haap
@@ -382,7 +356,6 @@ min_phrase_weight: 100
 䋁	au
 䋁	gaang
 䫜	au
-勾	au
 勾	gau
 勾	ngau
 区	au
@@ -406,15 +379,9 @@ min_phrase_weight: 100
 甌	au
 謳	au
 讴	au
-鉤	au
-鉤	gau
-鉤	ngau
 鏂	au
-鏂	ngau
 鷗	au
 鸥	au
-𩥋	au
-𩥋	ngau
 㞎	baa
 㞎	paa
 㳒	baa
@@ -7712,6 +7679,8 @@ min_phrase_weight: 100
 遘	gau
 鈎	gau
 鈎	ngau
+鉤	gau
+鉤	ngau
 钩	gau
 钩	ngau
 阄	gau
@@ -10140,6 +10109,7 @@ min_phrase_weight: 100
 𠺪	hi
 𠺬	he
 𠾍	he
+娭	hei
 㗭	hei
 㚀	hei
 㜯	hei
@@ -16938,6 +16908,8 @@ min_phrase_weight: 100
 䋙	zi
 䐖	ngaai
 䐖	zi
+譺	ngaai
+譺	jik
 䘽	ngaai
 䝘	ngaai
 䡾	ngaai
@@ -17088,6 +17060,7 @@ min_phrase_weight: 100
 㚧	ngam
 㚧	zim
 扲	ngam
+𡁏	ngam
 㘖	ngan
 䟴	ngan
 䟴	zaan
@@ -17137,6 +17110,7 @@ min_phrase_weight: 100
 蕅	ngau
 藕	ngau
 騳	ngau
+𩥋	ngau
 㓟	ngo
 㓟	pai
 㓟	pei
@@ -17150,6 +17124,7 @@ min_phrase_weight: 100
 俄	ngo
 卧	ngo
 吪	ngo
+哦	ngo
 哦	o
 娥	ngo
 峨	ngo
@@ -17175,8 +17150,6 @@ min_phrase_weight: 100
 㕌	ngoi
 㕌	zak
 外	ngoi
-璦	ngoi
-璦	oi
 碍	ngoi
 礙	ngoi
 騃	ngoi
@@ -17219,8 +17192,6 @@ min_phrase_weight: 100
 㸩	ngon
 䯃	ngon
 岸	ngon
-銨	ngon
-銨	on
 𩣑	ngon
 戇	ngong	1000
 戇	zong
@@ -17246,30 +17217,22 @@ min_phrase_weight: 100
 傲	ngou
 嗷	ngou
 奡	ngou
-嶴	ngou
-嶴	ou
 廒	ngou
 摮	ngou
-擙	ngou
-擙	ou
 敖	ngou
 滶	ngou
 熬	ngou
-爊	ngou
-爊	ou
 獒	ngou
 璈	ngou
 磝	ngou
 翱	ngou
 翺	ngou
 聱	ngou
-芺	ngou
-芺	ou
 螯	ngou
 謷	ngou
 遨	ngou
 鏊	ngou
-鏖	ngou
+鏖	ngou	3%
 鏖	ou
 隞	ngou
 驁	ngou
@@ -17576,6 +17539,7 @@ min_phrase_weight: 100
 壒	oi
 嫒	oi
 嬡	oi
+璦	oi
 暧	oi
 曖	oi
 毐	oi
@@ -17614,6 +17578,7 @@ min_phrase_weight: 100
 盎	on
 盎	ong
 铵	on
+銨	on
 鞌	on
 鞍	on
 㼜	ong
@@ -17629,6 +17594,7 @@ min_phrase_weight: 100
 㟅	ou
 㟅	zoeng
 㤇	ou
+芺	ou
 㩠	ou
 㾮	ou
 㾮	wong
@@ -17645,13 +17611,18 @@ min_phrase_weight: 100
 媼	ou
 媼	wan
 岙	ou
+擙	ou
 懊	ou
 袄	ou
 襖	ou
 鏕	ou
 镺	ou
+嶴	ou
 𥜌	ou
 𩼈	ou
+爊	ou
+爊	ngou	3%
+爊	ngaau	3%
 䎬	paa
 䎱	paa
 帊	paa
