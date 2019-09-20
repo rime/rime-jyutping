@@ -1752,7 +1752,7 @@ min_phrase_weight: 100
 岔	caa
 差	caa
 差	caai	300%
-差	ci
+差	ci  3%
 扠	caa
 搽	caa
 杈	caa
@@ -28313,7 +28313,7 @@ label	lei bou
 擘大個口得個窿
 擘大口
 擘大口得個窿
-擘大喉嚨嗌	maak daai hau lung ngaai
+擘大喉嚨嗌	maak daai hau lung aai
 擘大眼
 擘大眼講大話
 擘開個口
@@ -28800,24 +28800,24 @@ miss	mi si
 挨憑	ngaai beng
 捱得苦
 捱更抵夜	ngaai gaang dai je
-嗌交	ngaai gaau
-嗌救命	ngaai gau meng
+嗌交	aai gaau
+嗌救命	aai gau meng
 捱飢抵冷
-嗌嘢	ngaai je
+嗌嘢	aai je
 捱夜
-嗌嘢食	ngaai je sik
+嗌嘢食	aai je sik
 崖鷹
 捱騾仔	ngaai leoi zai
 挨晚	ngaai maan
-嗌名	ngaai meng
+嗌名	aai meng
 捱眼瞓
 挨拼	ngaai peng
 挨拼椅	ngaai peng ji
 捱生捱死	ngaai saang ngaai sei
 捱世界
 捱肚餓
-嗌痛	ngaai tung
-嗌通街	ngaai tung gaai
+嗌痛	aai tung
+嗌通街	aai tung gaai
 捱齋	ngaai zaai
 呃錢	ngaak cin
 呃鬼	ngaak gwai
@@ -28916,8 +28916,8 @@ miss	mi si
 暗啞抵	ngam ngaa dai
 吟吟沉沉	ngam ngam cam cam
 扲雀仔竇	ngam zoek zai dau
-揞住	ngam zyu
-揞住嘴笑	ngam zyu zeoi siu
+揞住	am zyu
+揞住嘴笑	am zyu zeoi siu
 銀包
 銀雞
 奀妹
@@ -30259,7 +30259,7 @@ tissue	ti su
 唐字
 唐裝衫
 劏豬
-劏豬噉嗌	tong zyu gam ngaai
+劏豬噉嗌	tong zyu gam aai
 肚赤	tou cek
 土墩	tou deon
 土佬
