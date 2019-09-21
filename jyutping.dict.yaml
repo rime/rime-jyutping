@@ -320,7 +320,6 @@ min_phrase_weight: 100
 莺	ang
 鞥	ang
 鶯	ang
-噏	ngap
 洽	ap
 洽	haap
 洽	hap
@@ -17084,6 +17083,8 @@ min_phrase_weight: 100
 㟁	ngang
 㟁	ngon
 䤝	ngang
+噏	ngap
+噏	kap
 砐	ngap
 兀	ngat
 卼	ngat
@@ -24504,7 +24505,7 @@ IP	ai pi
 弊傢伙
 跛腳佬	bai goek lou
 弊喇
-閉翳	bai ngai
+閉翳	bai ai
 跛手	bai sau
 北便	bak bin
 北芪
@@ -26300,7 +26301,7 @@ fax	fet si
 個囉
 嗰晚
 嗰排
-個心好翳	go sam hou ngai
+個心好翳	go sam hou ai
 個心十五十六
 嗰時
 嗰處	go syu
@@ -26970,8 +26971,8 @@ fax	fet si
 洶涌澎湃	hung jung paang paai
 洶湧澎湃	hung jung paang paai
 熊貓噉嘅眼	hung maau gam ge ngaan
-兇神惡	hung san ngok
-兇神惡殺	hung san ngok saat
+兇神惡	hung san ok
+兇神惡煞	hung san ok saat
 空手掉空臂	hung sau diu hung bei
 熊仔	hung zai
 壎篪相和
@@ -27685,7 +27686,7 @@ quali	ko li
 爛泥扶唔上壁	laan nai fu m soeng bek
 爛女	laan neoi
 爛牙
-讕惡爺	laan ngok je
+讕惡爺	laan ok je
 爛平爛賤	laan peng laan zin
 爛蒲
 爛衫
@@ -28897,25 +28898,25 @@ miss	mi si
 拗手瓜	ngaau sau gwaa
 拗胡	ngaau wu
 拗胡婆	ngaau wu po
-矮躉	ngai dan
-矮凳仔	ngai dang zai
-矮凸凸	ngai dat dat
+矮躉	ai dan
+矮凳仔	ai dang zai
+矮凸凸	ai dat dat
 蟻竇
-翳焗	ngai guk
-矮瓜	ngai gwaa
-翳氣	ngai hei
+翳焗	ai guk
+矮瓜	ai gwaa
+翳氣	ai hei
 噅人
-翳熱	ngai jit
+翳熱	ai jit
 噅求
 蟻躝噉	ngai laan gam
 噅噅篩篩
-翳滯	ngai zai
+翳滯	ai zai
 僞造	ngai zou
 僞造品	ngai zou ban
 吟沉	ngam cam
 扲袋
 吟嚟吟去	ngam lei ngam heoi
-暗啞抵	ngam ngaa dai
+暗啞抵	am ngaa dai
 吟吟沉沉	ngam ngam cam cam
 扲雀仔竇	ngam zoek zai dau
 揞住	am zyu
@@ -28999,17 +29000,17 @@ miss	mi si
 外洩	ngoi sit
 外太公	ngoi taai gung
 外太婆	ngoi taai po
-惡頂	ngok ding
+惡頂	ok ding
 捳高頭	ngok gou tau
-惡亨亨	ngok hang hang
-惡爺	ngok je
-惡爺頭	ngok je tau
+惡亨亨	ok hang hang
+惡爺	ok je
+惡爺頭	ok je tau
 鱷魚頭
-惡鯁	ngok kang
-惡死	ngok sei
-惡死能登	ngok sei nang dang
+惡鯁	ok kang
+惡死	ok sei
+惡死能登	ok sei nang dang
 捳頭	ngok tau
-惡作	ngok zok
+惡作	ok zok
 安樂茶飯	ngon lok caa faan
 戇居	ngong geoi
 戇居居	ngong geoi geoi
@@ -29379,7 +29380,7 @@ PTU	pi ti jiu
 糝古月粉	sam gu jyut fan
 審核權	sam hat kyun
 心口針
-心好翳	sam hou ngai
+心好翳	sam hou ai
 心仪
 心裏	sam leoi
 滲蚊仔	sam man zai
