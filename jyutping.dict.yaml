@@ -120,6 +120,9 @@ min_phrase_weight: 100
 呃	aak
 呃	ak	1000
 扼	aak
+扼	ak
+阨	aak
+阨	ak
 握	aak
 握	ak
 搹	aak
@@ -263,7 +266,6 @@ min_phrase_weight: 100
 搤	ak
 渥	ak
 腛	ak
-阨	ak
 餩	ak
 唵	am
 啽	am
