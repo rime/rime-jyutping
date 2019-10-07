@@ -4515,7 +4515,7 @@ min_phrase_weight: 100
 匰	daan
 单	daan
 單	daan
-單	sin
+單	sin	3%
 弹	daan
 弹	taan
 彈	daan
@@ -27035,7 +27035,7 @@ X光	ik si gwong
 因住
 因住電親
 因住凍親
-入便	jap bin
+入邊	jap bin
 入錢	jap cin
 入得廚房	jap dak ceoi fong
 入伙
