@@ -11,4 +11,14 @@
 
 [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install jyutping`
 
-授權條款：見 [LICENSE](LICENSE)
+## 使用
+
+本方案支持普通話拼音、五筆、倉頡五代反查，反查按鍵：
+
+- 明月拼音：<code>`</code>
+- 五筆：`x`
+- 倉頡五代：`v`
+
+## 授權條款
+
+見 [LICENSE](LICENSE)
