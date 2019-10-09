@@ -3586,7 +3586,7 @@ min_phrase_weight: 100
 初	co
 剉	co
 坐	co
-坐	zo
+坐	zo	3%
 媰	co
 媰	zau
 嵯	co
@@ -9972,7 +9972,7 @@ min_phrase_weight: 100
 硁	hang
 硜	hang
 肯	hang
-肯	hoi
+肯	hoi	0%
 胻	hang
 脝	hang
 茎	hang
@@ -26315,7 +26315,8 @@ fax	fet si
 嗰陣
 嗰陣時
 嗰隻衰嘢	go zek seoi je
-嗰種
+個鐘	go zung
+嗰種	go zung
 腳板底
 腳板堂
 腳底按摩
@@ -27619,6 +27620,7 @@ quali	ko li
 纊埋	kwang maai
 纊住	kwang zyu
 擴音喇叭	kwok jam laa baa
+缺人手	kyut jan sau
 揦翻拃沙
 啦啦林
 啦啦亂
@@ -31264,6 +31266,7 @@ short short哋	sot sot dei
 可唔可以	ho m ho ji
 可能係	ho nang hai
 向佢	hoeng keoi
+開咗	hoi zo
 學得識	hok dak sik
 學緊	hok gan
 學唔到	hok m dou
@@ -32064,7 +32067,6 @@ short short哋	sot sot dei
 鷯哥
 鹹濕
 麥芽
-黐線
 點呀
 點樣
 點行
