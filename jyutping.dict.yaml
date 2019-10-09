@@ -10568,7 +10568,7 @@ min_phrase_weight: 100
 儗	ji
 凯	hoi
 凱	hoi
-凱	ngoi
+凱	ngoi	0%
 剀	hoi
 剴	hoi
 咍	hoi
@@ -11391,8 +11391,8 @@ min_phrase_weight: 100
 喏	je
 埜	je
 夜	je
-射	je
-射	jik
+射	je	0%
+射	jik	0%
 射	se
 惹	je
 捓	je
@@ -11467,7 +11467,7 @@ min_phrase_weight: 100
 亄	ji
 二	ji
 以	ji
-以	jyu
+以	jyu	0%
 仪	ji
 伊	ji
 佁	ji
@@ -11479,13 +11479,13 @@ min_phrase_weight: 100
 偯	ji
 儀	ji
 兒	ji
-兒	ngai
+兒	ngai	0%
 刵	ji
 劓	ji
 勚	ji
 匜	ji
 医	ji
-台	ji
+台	ji	0%
 台	toi
 吚	ji
 咡	ji
@@ -31141,7 +31141,7 @@ short short哋	sot sot dei
 畀你	bei nei
 畀咗	bei zo
 邊道	bin dou
-邊道人	bin dou jan
+邊度	bin dou
 邊有	bin jau
 變成咗	bin sing zo
 出咗	ceot zo
@@ -31183,6 +31183,7 @@ short short哋	sot sot dei
 發畀我	faat bei ngo
 瞓覺	fan gaau
 復咗	fuk zo
+家陣	gaa zan
 搞錯咗	gaau co zo
 搞掂嗮	gaau dim saai
 搞到你	gaau dou nei
@@ -31205,7 +31206,7 @@ short short哋	sot sot dei
 噉講	gam gong
 咁鬼	gam gwai
 咁好	gam hou
-咁又係	gam jau hai
+噉又係	gam jau hai
 咁樣	gam joeng
 噉咪	gam mai
 噉你	gam nei
@@ -31226,6 +31227,8 @@ short short哋	sot sot dei
 記唔記得	gei m gei dak
 嗰啲人	go di jan
 嗰篇	go pin
+嗰陣	go zan
+個陣	go zan
 覺唔覺得	gok m gok dak
 趕唔上	gon m soeng
 講得點	gong dak dim
@@ -31234,7 +31237,9 @@ short short哋	sot sot dei
 講來話長	gong loi waa coeng
 講實話	gong sat waa
 講咗咩	gong zo me
+鬼咁	gwai gam
 鬼佬	gwai lou
+鬼死咁	gwai sei gam
 過咗	gwo zo
 係點	hai dim
 喺道	hai dou
@@ -31249,6 +31254,7 @@ short short哋	sot sot dei
 肯定係	hang ding hai
 可以講係	ho ji gong hai
 可以係	ho ji hai
+可唔可以	ho m ho ji
 可能係	ho nang hai
 向佢	hoeng keoi
 學得識	hok dak sik
@@ -31258,7 +31264,9 @@ short short哋	sot sot dei
 好似我	hou ci ngo
 好多嘢	hou do je
 好嘅	hou ge
+好鬼	hou gwai
 好鬼煩	hou gwai faan
+好鬼死	hou gwai sei
 好耐以前	hou noi ji cin
 好犀利	hou sai lei
 一啲嘢	jat di je
@@ -31356,8 +31364,6 @@ short short哋	sot sot dei
 呢種人	ne zung jan
 你點知	nei dim zi
 你都係	nei dou hai
-你係唔係	nei hai m hai
-你可唔可以	nei ho m ho ji
 你有冇	nei jau mou
 你而家	nei ji gaa
 你意思係	nei ji si hai
@@ -31398,6 +31404,7 @@ short short哋	sot sot dei
 嘥嗮	saai saai
 寫成噉	se sing gam
 食完飯	sik jyun faan
+識唔識	sik m sik
 先係	sin hai
 傻閪	so hai
 所以我就係話	so ji ngo zau hai waa
@@ -31446,6 +31453,7 @@ short short哋	sot sot dei
 就係我	zau hai ngo
 就算係	zau syun hai
 自己嘅	zi gei ge
+知唔知	zi m zi
 剩低	zing dai
 剩得	zing dak
 剩識	zing sik
