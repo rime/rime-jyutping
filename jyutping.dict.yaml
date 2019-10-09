@@ -2379,7 +2379,7 @@ min_phrase_weight: 100
 辴	can
 陈	can
 陳	can
-陳	zan
+陳	zan	0%
 齔	can
 龀	can
 㓌	cang
@@ -4515,7 +4515,7 @@ min_phrase_weight: 100
 匰	daan
 单	daan
 單	daan
-單	sin
+單	sin	3%
 弹	daan
 弹	taan
 彈	daan
@@ -25512,6 +25512,7 @@ cheap嘢
 定係	ding hai
 頂唔順	ding m seon
 頂唔住	ding m zyu
+頂硬上	ding ngaang soeng
 定嗮形	ding saai jing
 頂心杉	ding sam caam
 頂肚	ding tou
@@ -25835,6 +25836,7 @@ fax	fet si
 放煙花
 放唔低	fong m dai
 放馬過嚟	fong maa gwo lei
+方唔方便	fong m fong bin
 慌怕
 放怶
 慌失失
@@ -26296,7 +26298,7 @@ fax	fet si
 嗰個
 嗰個係
 哥哥仔	go go zai
-嗰日
+嗰日	go jat
 嗰一晚
 個樣好得戚
 個囉
@@ -26701,6 +26703,7 @@ fax	fet si
 係吖
 係呀
 係衙	hai aa
+喺邊	hai bin
 喺邊度	hai bin dou
 喺邊度	hoeng bin dou
 喺度	hai dou
@@ -28529,6 +28532,7 @@ miss	mi si
 冇膽
 冇啖好食	mou daam hou sik
 唔好擔心	mou daam sam
+冇得	mou dak
 冇得頂	mou dak ding
 冇得瞓
 冇得揀
@@ -28834,11 +28838,11 @@ miss	mi si
 啱key	ngaam ki
 啱蹺	ngaam kiu
 啱唔啱	ngaam m ngaam
-啱啱
+啱啱	ngaam ngaam	
 巖巖巉巉
 啱啱要
 啱心水
-啱先
+啱先	ngaam sin
 啱聽	ngaam teng
 啱咀形
 眼白白
@@ -30837,7 +30841,7 @@ jacket	zek kek
 值情唔記得咗	zik cing m gei dak zo
 值得嘅	zik dak ge
 即管
-即係
+即係	zik hai
 即係話
 積陰功
 即映即有
@@ -31263,6 +31267,7 @@ short short哋	sot sot dei
 學得識	hok dak sik
 學緊	hok gan
 學唔到	hok m dou
+好冇	hou mou
 好似有	hou ci jau
 好似我	hou ci ngo
 好多嘢	hou do je
@@ -31463,9 +31468,8 @@ short short哋	sot sot dei
 就係要	zau hai jiu
 就係我	zau hai ngo
 就算係	zau syun hai
+最尾	zeoi mei
 自己嘅	zi gei ge
-知唔知	zi m zi
-即係	zik hai
 剩低	zing dai
 剩得	zing dak
 淨係	zing hai
