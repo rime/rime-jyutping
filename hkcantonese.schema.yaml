@@ -8,7 +8,7 @@ schema:
   author:
     - Matthew Wo <9029537@gmail.com>
   description: |
-    耶魯粵語拼音方案
+    香港廣東話拼音方案
     https://github.com/rime/rime-jyutping
   dependencies:
     - luna_pinyin
