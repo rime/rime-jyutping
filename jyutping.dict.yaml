@@ -357,7 +357,7 @@ min_phrase_weight: 100
 䋁	au
 䋁	gaang
 䫜	au
-勾	gau 3%
+勾	gau	3%
 勾	ngau
 区	au
 区	keoi
@@ -1753,7 +1753,7 @@ min_phrase_weight: 100
 岔	caa
 差	caa
 差	caai	300%
-差	ci  3%
+差	ci	3%
 扠	caa
 搽	caa
 杈	caa
@@ -7609,7 +7609,7 @@ min_phrase_weight: 100
 勼	gau
 勼	kau
 厩	gau
-句	gau 3%
+句	gau	3%
 句	geoi
 咎	gau
 咎	gou
@@ -7678,11 +7678,11 @@ min_phrase_weight: 100
 購	kau
 购	gau
 遘	gau
-鈎	gau 3%
+鈎	gau	3%
 鈎	ngau
-鉤	gau 3%
+鉤	gau	3%
 鉤	ngau
-钩	gau 3%
+钩	gau	3%
 钩	ngau
 阄	gau
 雊	gau
