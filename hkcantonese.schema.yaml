@@ -9,7 +9,7 @@ schema:
     - Matthew Wo <9029537@gmail.com>
   description: |
     香港廣東話拼音方案
-    https://github.com/rime/rime-jyutping
+    https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E6%94%BF%E5%BA%9C%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3
   dependencies:
     - luna_pinyin
 
