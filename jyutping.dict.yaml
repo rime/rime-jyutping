@@ -8,7 +8,7 @@
 
 ---
 name: jyutping
-version: "2019.09.22"
+version: "2019.10.12"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -26717,7 +26717,7 @@ fax	fet si
 係囉
 係路
 係唔係	hai m hai
-係咪  hai mai
+係咪	hai mai
 係咪真嘅	hai mai zan ge
 係咩	hai me
 係你先至好講呀
