@@ -1,4 +1,6 @@
-# 粵拼
+# Rime 粵語拼音（無聲調版）
+
+**本倉庫已暫停維護**，請改用持續更新嘅帶聲調粵語拼音碼表 [rime/rime-cantonese](https://github.com/rime/rime-cantonese)。
 
 配方： ℞ **jyutping**
 
@@ -8,7 +10,6 @@
 - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
 - [香港語言學會粵語拼音方案](https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)
 
-本倉庫已經暫停維護，持續更新的有聲調粵語拼音方案請見 [rime/rime-cantonese](https://github.com/rime/rime-cantonese)。
 
 ## 安裝
 
@@ -16,7 +17,7 @@
 
 ## 使用
 
-本方案支持普通話拼音、五筆劃、倉頡五代反查，反查按鍵：
+本方案支持普通話拼音、五筆劃、倉頡五代反查，反查掣：
 
 - 明月拼音：<code>`</code>
 - 五筆劃：`x`
