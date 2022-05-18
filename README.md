@@ -1,3 +1,8 @@
+<p align="center"><a href="https://github.com/rime/rime-cantonese/"><img src="https://github.com/rime/rime-jyutping/blob/e70ab6d/warning.svg" align=center></a></p>
+<p align="center"><a href="https://github.com/rime/rime-cantonese/releases"><img src="https://github.com/rime/rime-jyutping/blob/e70ab6d/warning2.svg" align=center></a></p>
+
+---------------------------
+
 # Rime 粵語拼音（無聲調版）
 
 **本倉庫已停止維護**，請改用持續更新嘅帶聲調粵語拼音碼表 [rime/rime-cantonese](https://github.com/rime/rime-cantonese)。
