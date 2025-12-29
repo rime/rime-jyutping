@@ -1,5 +1,5 @@
-<p align="center"><a href="https://github.com/rime/rime-cantonese/"><img src="https://github.com/rime/rime-jyutping/blob/master/warning.svg" align=center></a></p>
-<p align="center"><a href="https://github.com/rime/rime-cantonese/releases"><img src="https://github.com/rime/rime-jyutping/blob/master/warning2.svg" align=center></a></p>
+<p align="center"><a href="https://github.com/rime/rime-cantonese/"><img src="https://github.com/rime/rime-jyutping/blob/e70ab6d/warning.svg" align=center></a></p>
+<p align="center"><a href="https://github.com/rime/rime-cantonese/releases"><img src="https://github.com/rime/rime-jyutping/blob/e70ab6d/warning2.svg" align=center></a></p>
 
 ---------------------------
 
