@@ -1,6 +1,6 @@
-# Rime 粵語拼音（無聲調版）
+# Rime 粵語拼音
 
-**本倉庫已停止維護**，請改用持續更新嘅帶聲調粵語拼音碼表 [rime/rime-cantonese](https://github.com/rime/rime-cantonese)。
+另見持續更新嘅帶聲調粵語拼音碼表 [rime/rime-cantonese](https://github.com/rime/rime-cantonese)。
 
 配方： ℞ **jyutping**
 
